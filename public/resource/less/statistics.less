@@ -1,0 +1,60 @@
+
+.box-body {
+	.stats-fixed-condition {
+		width: 700px;
+		.stats-condition-header {
+			padding: 10px 16px;
+			color: #444;
+			display: block;
+			position: relative;
+			&.with-border {
+				border-bottom: 1px solid #f4f4f4;
+			}
+			.stats-condition-title a {
+				font-size: 15px;
+				font-weight: 600;
+				color: #252525;
+				&.collapsed i {
+					transform: rotate(180deg);
+				}
+				i {
+					font-size: 22px;
+					color: #252525;
+					margin-left: 10px;
+				}
+			}
+		}
+		
+		.stats-condition-body {
+			margin-left: 10px;
+			font-size: 13px;
+			font-weight: 600;
+			.form-horizontal {
+				.form-group {
+					margin-bottom: 10px;
+					.form-control {
+						font-size: 13px;
+					}
+					.control-label {
+						padding-top: 0;
+					}
+				}
+			}
+			.radio label, .checkbox label {
+				font-weight: 600;
+			}
+			.btn-group {
+				&.radio-group {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.with-top-border {
+		border-top: 1px solid #d8d8d8;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+

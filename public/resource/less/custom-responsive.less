@@ -1,0 +1,75 @@
+// 왼쪽 고정 메뉴 변수 참조.
+@import (reference) "left-side-menu.less";
+
+// 헤더를 숨기기위한 화면 사이즈
+@headerMenuHideWidth: 1223px;
+// 헤더가 숨겨졌을때, 메뉴의 최상위 Border COlor
+@headerCollapseInBorderColor: #101010;
+
+// 헤더가 숨겨 졌을때 해야할일.
+@media (max-width: @headerMenuHideWidth) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+    li {
+      float: none;
+      text-align: center;
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+    .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+
+  .collapse.in {
+    display: block !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    .navbar-right {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+.sidebar-collapse {
+  .content-wrapper, .right-side, .main-footer {
+    margin-left: @leftSideFixedMenuWidth !important;
+  }
+}

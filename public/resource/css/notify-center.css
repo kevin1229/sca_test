@@ -1,0 +1,116 @@
+.fixed-right {
+  position: fixed;
+  right: 0;
+  width: 310px;
+  top: auto;
+}
+.label-notify-count-inner {
+  position: absolute;
+  text-align: center;
+  padding: 3px 4px;
+  background-color: #9c9494 !important;
+  color: #fff !important;
+  /* border: 1px solid transparent; */
+  border-radius: 7em 7.5em 7em 7em 7em 7.5em 7em 7.5em;
+  min-width: 30px;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+.notify-menu .dropdown-menu {
+  max-height: 700px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.notify-menu .dropdown-menu .box-header {
+  background-color: #e4e4e4;
+  padding: 5px 10px;
+}
+.notify-menu .dropdown-menu .notify-body {
+  max-height: 642px;
+}
+.notify-menu .dropdown-menu .notify-body .box-header .material-icons {
+  padding: 0;
+}
+.notify-menu .dropdown-menu .notify-body .box-body {
+  padding-top: 8px;
+  padding-bottom: 0;
+}
+.notify-menu .dropdown-menu .notify-body .box-body > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+.notify-menu .dropdown-menu .notify-body .collapsed .box-header .arrow-up {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+.notify-menu .dropdown-menu .notify-card {
+  vertical-align: middle;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin: 0 8px 8px;
+}
+.notify-menu .dropdown-menu .notify-card .date-outer {
+  float: right;
+  height: 3px;
+  font-size: 10px;
+  position: absolute;
+  right: 13px;
+  top: 4px;
+  font-weight: bold;
+  color: inherit;
+  opacity: 0.8;
+}
+.notify-menu .dropdown-menu .notify-card .card-inner-left {
+  width: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+.notify-menu .dropdown-menu .notify-card .card-inner-left .icon-area .material-icons {
+  font-size: 24px;
+}
+.notify-menu .dropdown-menu .notify-card .card-inner-right {
+  padding-top: 8px;
+  position: absolute;
+  right: 10px;
+}
+.notify-menu .dropdown-menu .notify-card .card-inner-right .material-icons {
+  font-size: 20px;
+}
+.notify-menu .dropdown-menu .notify-card .card-inner-right .btn {
+  padding-left: 0;
+  padding-right: 0;
+}
+.notify-menu .dropdown-menu .notify-card .card-inner-center {
+  padding-left: 5px;
+  width: 232px;
+}
+.notify-menu .dropdown-menu .notify-card .card-inner-center .notify-msg {
+  font-size: 12px;
+  color: #9c9494;
+}
+.notify-menu .dropdown-menu .notify-card > button.close {
+  right: -2px;
+  top: 16px;
+}
+.notify-menu .dropdown-menu .notify-card .fake-for-vertical-align {
+  position: inherit;
+  height: 40px;
+}
+.notify-menu .dropdown-menu .notify-card > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.notify-menu .dropdown-menu .icon-group {
+  color: #8a8a8a;
+  margin-right: 14px;
+  position: absolute;
+  right: 0;
+  top: -3px;
+}
+.notify-menu .dropdown-menu .icon-group .material-icons {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=notify-center.css.map */

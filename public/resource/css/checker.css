@@ -1,0 +1,52 @@
+.checker-content {
+  padding: 0 16px 16px 16px;
+}
+.checker-content #examples .checker-desc-box {
+  padding: 4px 0;
+}
+.checker-content #examples [name="exampleDesc"],
+.checker-content #examples [name="solutionDesc"] {
+  padding: 0 16px;
+}
+.checker-content #examples .subject {
+  padding: 0 4px;
+}
+.checker-content .checker-desc-box {
+  border: 1px solid #DDDDDD;
+  padding: 8px;
+}
+.checker-content .padding-top {
+  padding-top: 10px;
+}
+.checker-content .category {
+  font-size: 13px;
+  color: #252525;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.checker-content .subject {
+  font-size: 13px;
+  color: #4F84C4;
+  font-weight: bold;
+}
+.checker-content .source {
+  padding: 10px 3px 10px 3px;
+}
+.checker-content .CodeMirror {
+  border: none;
+}
+.checker-content .editable-box {
+  background-color: #ffffff;
+}
+.checker-content .editable textarea {
+  width: 100%;
+  height: 60px;
+}
+.checker-content [name=example-set] {
+  margin-bottom: 20px;
+}
+.checker-content [name=example-set]:last-child {
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=checker.css.map */

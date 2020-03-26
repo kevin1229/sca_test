@@ -1,0 +1,91 @@
+.box-header.title {
+  padding: 4px 0 10px 4px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.checker-desc {
+  height: 170px;
+  padding: 0 16px;
+}
+.panel.box .box-body .detail-href a {
+  color: #3c8dbc;
+}
+.select-checker-msg {
+  font-size: 25px;
+  color: #373737;
+  opacity: 0.37;
+  text-align: center;
+  height: inherit;
+  padding: 61px;
+}
+#modalModifyCheckerOption textarea {
+  width: 100%;
+  height: 85px;
+}
+#modalModifyCheckerOption pre {
+  background: #eaeaea;
+  width: 100%;
+  height: 300px;
+}
+#modalModifyCheckerOption .checkbox label {
+  color: #666666;
+  font-weight: 600;
+}
+#modalModifyCheckerOption form.form-horizontal {
+  padding-left: 0;
+  padding-right: 0;
+}
+#modalModifyCheckerOption .program-lang {
+  font-size: 13px;
+  padding: 4px 6px;
+  vertical-align: middle;
+}
+#modalModifyCheckerOption .checker-desc-box {
+  margin: -10px 22px 20px;
+  border: 1px solid #e9e9e9;
+  padding: 10px;
+}
+.dropdown-menu.compliance-tree {
+  left: auto;
+}
+.dropdown-menu.compliance-tree .select2-container .select2-selection--single .select2-selection__rendered {
+  margin-top: 0px;
+}
+.tree-area.compliance-tree {
+  height: 150px;
+}
+.box-title.checker-count {
+  font-size: 16px;
+}
+.page-action .btn {
+  min-width: 60px;
+}
+.dt-button-collection.dropdown-menu li a {
+  font-size: 12px;
+  line-height: 13px;
+}
+table tbody tr td.risk-level .select2.select2-container .select2-selection--single .select2-selection__rendered {
+  color: #eeeeee;
+  font-weight: 600;
+  text-align: center;
+}
+table tbody tr td.risk-level .select2.select2-container .select2-selection--single .select2-selection__arrow b {
+  border-color: #eeeeee transparent transparent transparent;
+}
+table tbody tr td.risk1 .select2.select2-container .select2-selection--single {
+  background: #d32f2f;
+}
+table tbody tr td.risk2 .select2.select2-container .select2-selection--single {
+  background: #f57c00;
+}
+table tbody tr td.risk3 .select2.select2-container .select2-selection--single {
+  background: #e59701;
+}
+table tbody tr td.risk4 .select2.select2-container .select2-selection--single {
+  background: #9e9d24;
+}
+table tbody tr td.risk5 .select2.select2-container .select2-selection--single {
+  background: #616161;
+}
+
+/*# sourceMappingURL=admin-checker-group-design.css.map */

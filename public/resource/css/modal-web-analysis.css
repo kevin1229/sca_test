@@ -1,0 +1,101 @@
+.modal-web-analysis input {
+  font-size: 13px;
+  color: #666666;
+  font-weight: 600;
+}
+.modal-web-analysis .web-analysis-file .file-drop-zone.clickable {
+  margin: 2px;
+}
+.modal-web-analysis .web-analysis-file .file-drop-zone.clickable:hover {
+  margin: 0;
+}
+.modal-web-analysis .web-analysis-file .krajee-default .file-other-icon {
+  font-size: 10px;
+}
+.modal-web-analysis .web-analysis-file .krajee-default .file-preview-other {
+  padding: 0px 10px 0px 10px;
+}
+.modal-web-analysis .web-analysis-file .krajee-default .file-footer-caption {
+  margin: 0px auto;
+}
+.modal-web-analysis .web-analysis-file .file-preview {
+  border: 0px;
+  padding: 0px 0px;
+}
+.modal-web-analysis .web-analysis-file .file-preview .file-drop-zone-title {
+  font-size: 1.3em;
+  padding: 12px 0 12px 110px;
+  text-align: left;
+}
+.modal-web-analysis .web-analysis-file .file-preview .file-drop-zone-title .row {
+  padding-right: 15px;
+}
+.modal-web-analysis .web-analysis-file .file-preview .file-drop-zone-title .drop-zone-icon {
+  font-size: 20px;
+}
+.modal-web-analysis .web-analysis-file .file-preview .file-drop-zone-title .drop-zone-msg {
+  font-size: 13px;
+  color: #666666;
+  font-weight: 600;
+}
+.modal-web-analysis .web-analysis-file .file-preview .file-drop-zone-title .upload-icon {
+  font-size: 48px;
+  position: absolute;
+  left: 40px;
+  top: 18px;
+}
+.modal-web-analysis .web-analysis-file .file-preview .file-drop-zone-title .upload-icon .file-preview {
+  border: 0;
+  padding: 0;
+}
+.modal-web-analysis .web-analysis-file .file-preview .file-drop-zone-title .upload-icon .file-preview .file-drop-zone {
+  margin: 0;
+}
+.modal-web-analysis .web-analysis-file .krajee-default.file-preview-frame .kv-preview-thumb {
+  background-color: #e6e6e6;
+  box-shadow: 0 0 0 0;
+  cursor: not-allowed;
+}
+.modal-web-analysis .web-analysis-file .krajee-default.file-preview-frame .kv-preview-thumb:hover {
+  box-shadow: 0 0 0 0;
+}
+.modal-web-analysis .web-analysis-file .kv-fileinput-caption {
+  height: 30px;
+}
+.modal-web-analysis .web-analysis-file .file-caption-name {
+  font-size: 12px;
+}
+.modal-web-analysis .web-analysis-file .fileinput-remove-button {
+  height: 100%;
+}
+.modal-web-analysis .web-analysis-file .progress-bar-success {
+  background-color: #3c8dbc;
+  display: none;
+}
+.modal-web-analysis .web-analysis-file .file-input .file-caption-main .input-group-btn button {
+  padding: 4px 9px;
+  background: #ffffff;
+  height: 30px;
+}
+.modal-web-analysis .web-analysis-file .file-input .file-caption-main .input-group-btn i.fa {
+  font-size: 17px;
+}
+.modal-web-analysis .web-analysis-file .file-input .file-caption-main .input-group-btn span {
+  diplay: block;
+  vertical-align: top;
+}
+.modal-web-analysis .web-analysis-program-langs .checkbox label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #666666;
+}
+.modal-web-analysis .web-analysis-mode div {
+  width: 100%;
+}
+.modal-web-analysis .web-analysis-mode div button {
+  width: 50%;
+  color: #666666;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=modal-web-analysis.css.map */

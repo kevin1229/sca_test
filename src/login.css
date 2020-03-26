@@ -1,0 +1,77 @@
+.login-box-body {
+  border-top: 0;
+  position: relative;
+  margin: 0 auto;
+  top: 18%;
+  padding: 44px 30px 160px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 296px;
+}
+.login-wrapperBox {
+  height: 100%;
+  background-color: #EEEEEE;
+}
+.login-wrapperBox p.logo {
+  color: #4F84C4;
+  font-family: HelveticaNeueLTPro-MdCn;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+.login-wrapperBox p.desc {
+  color: #B7B7B7;
+  font-size: 11px;
+  text-align: center;
+  font-weight: 600;
+  margin: 55px -4px 0 8px;
+  display: inline-block;
+  line-height: 1.8;
+}
+.login-wrapperBox p.version {
+  color: #797979;
+  font-size: 11px;
+  text-align: right;
+}
+.login-wrapperBox .btn-login {
+  border-radius: 2px;
+  margin-top: 12px;
+}
+.login-wrapperBox .login-box-body {
+  background-image: url(/resources/image/login_background.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 296px 120px;
+}
+.login-wrapperBox .login-box-body input {
+  border-bottom: 1px solid #e9e9e9;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  width: 208px;
+  display: inline-block;
+  margin-left: 8px;
+}
+.login-wrapperBox .login-box-body .form-group {
+  margin-bottom: 24px;
+}
+.login-wrapperBox .login-box-body .fa-user {
+  font-size: 20px;
+  color: #F74343;
+}
+.login-wrapperBox .login-box-body .fa-lock {
+  font-size: 22px;
+  color: #F74343;
+}
+.login-wrapperBox .login-box-footer {
+  position: relative;
+  top: 18%;
+  text-align: center;
+}
+.login-wrapperBox .login-box-footer img {
+  vertical-align: bottom;
+}
+
+/*# sourceMappingURL=login.css.map */

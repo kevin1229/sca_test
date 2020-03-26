@@ -1,0 +1,14 @@
+/* project-setting */
+.box-body.project-setting form {
+  margin-bottom: 30px;
+}
+.box-body.project-setting form input.select-tree.form-control[readonly] {
+  background: #ffffff;
+}
+.box-body.project-setting form .form-group {
+  padding: 0;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+/*# sourceMappingURL=projects.css.map */

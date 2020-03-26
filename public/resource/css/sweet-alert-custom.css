@@ -1,0 +1,92 @@
+.sweet-container .sweet-alert {
+  border-radius: 0;
+  z-index: 1050;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.34901961);
+}
+.sweet-container .sweet-alert h2,
+.sweet-container .sweet-alert .sweet-content > p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #575757;
+  font-weight: 600;
+}
+.sweet-container .sweet-alert .sweet-content {
+  word-break: break-all;
+}
+.sweet-container .sweet-alert hr {
+  height: 10px;
+  color: transparent;
+  border: 0;
+  margin: 0;
+}
+.sweet-container .sweet-alert button {
+  font-size: 13px;
+  padding: 6px 20px;
+  box-shadow: none;
+  font-weight: 500;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.sweet-container .sweet-alert button.btn-danger:focus,
+.sweet-container .sweet-alert button.btn-danger:hover {
+  border-color: #d73925;
+}
+.sweet-container .sweet-alert .icon {
+  width: 40px;
+  height: 40px;
+}
+.sweet-container .sweet-alert .icon .x-mark .line {
+  height: 5px;
+  width: 30px;
+  top: 18px;
+}
+.sweet-container .sweet-alert .icon .x-mark .left {
+  left: 5px;
+}
+.sweet-container .sweet-alert .icon .x-mark .right {
+  right: 5px;
+}
+.sweet-container .sweet-alert .icon.info:before {
+  bottom: 16px;
+  height: 19px;
+}
+.sweet-container .sweet-alert .icon.info:after {
+  top: 29px;
+}
+.sweet-container .sweet-alert .icon.success:before {
+  top: -29px;
+  left: -46px;
+}
+.sweet-container .sweet-alert .icon.success:after {
+  top: -32px;
+  left: 13px;
+}
+.sweet-container .sweet-alert .icon.success .line.tip {
+  width: 15px;
+  left: 3px;
+  top: 23px;
+}
+.sweet-container .sweet-alert .icon.success .line.long {
+  width: 28px;
+  right: 2px;
+  top: 20px;
+}
+.sweet-container .sweet-alert .icon.success .placeholder {
+  width: 40px;
+  height: 40px;
+}
+.sweet-container .sweet-alert .icon.success .fix {
+  left: 11px;
+  top: 6px;
+  height: 47px;
+}
+.sweet-container .sweet-alert .icon.pulse-warning .body {
+  top: 5px;
+  height: 20px;
+}
+.sweet-container .sweet-alert .icon.pulse-warning .dot {
+  bottom: 5px;
+}
+
+/*# sourceMappingURL=sweet-alert-custom.css.map */

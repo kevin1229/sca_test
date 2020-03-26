@@ -1,0 +1,144 @@
+@import (reference) "skin-light.less";
+
+.box-header.title {
+  padding: 4px 0 10px 4px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.checker-desc {
+  height: 170px;
+  padding: 0 16px;
+}
+
+.panel.box .box-body {
+  .detail-href {
+    a {
+      color: #3c8dbc;
+    }
+  }
+}
+
+.select-checker-msg {
+  font-size: 25px;
+  color: #373737;
+  opacity: 0.37;
+  text-align: center;
+  height: inherit;
+  padding: 61px;
+}
+
+
+#modalModifyCheckerOption {
+  textarea {
+    width: 100%;
+    height: 85px;
+  }
+
+  pre {
+    background: #eaeaea;
+    width: 100%;
+    height: 300px;
+  }
+
+  .checkbox label {
+    color: #666666;
+    font-weight: 600;
+  }
+
+  form.form-horizontal {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .program-lang {
+    font-size: 13px;
+    padding: 4px 6px;
+    vertical-align: middle;
+  }
+
+  .checker-desc-box {
+    margin: -10px 22px 20px;
+    border: 1px solid #e9e9e9;
+    padding: 10px;
+  }
+}
+
+.dropdown-menu.compliance-tree {
+  left: auto;
+  .select2-container .select2-selection--single .select2-selection__rendered {
+  	margin-top: 0px;
+  }
+}
+
+.tree-area.compliance-tree {
+  height: 150px;
+}
+
+.box-title.checker-count {
+  font-size: 16px;
+}
+.page-action .btn {
+  min-width: 60px;
+}
+
+.dt-button-collection.dropdown-menu li a {
+  font-size: 12px;
+  line-height: 13px;
+}
+
+
+table tbody tr td {
+  &.risk-level{
+    .select2.select2-container {
+      .select2-selection--single {
+        .select2-selection__rendered {
+          color: @RiskLevelFontColor;
+          font-weight: 600;
+          text-align: center;
+        }
+        .select2-selection__arrow b {
+          border-color: @RiskLevelFontColor transparent transparent transparent;
+        }
+      }
+    }
+  }
+
+  &.risk1 {
+    .select2.select2-container {
+      .select2-selection--single {
+        background: @RiskLevel1BackgroundColor;
+      }
+    }
+  }
+
+  &.risk2 {
+    .select2.select2-container {
+      .select2-selection--single {
+        background: @RiskLevel2BackgroundColor;
+      }
+    }
+  }
+
+  &.risk3 {
+    .select2.select2-container {
+      .select2-selection--single {
+        background: @RiskLevel3BackgroundColor;
+      }
+    }
+  }
+  &.risk4 {
+    .select2.select2-container {
+      .select2-selection--single {
+        background: @RiskLevel4BackgroundColor;
+      }
+    }
+  }
+  &.risk5 {
+    .select2.select2-container {
+      .select2-selection--single {
+        background: @RiskLevel5BackgroundColor;
+      }
+    }
+  }
+}

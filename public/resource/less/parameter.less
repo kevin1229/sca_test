@@ -1,0 +1,20 @@
+@even: #fcfcfc !important;
+@odd: transparent !important;
+@default: default !important;
+
+table{
+    &.dataTable { 
+        tbody{
+            tr[role="row"] {
+            	cursor: @default;
+            	transition: all 0.3s ease-in-out;
+            	&:hover{
+            		background-color: @odd;
+            	}
+            	&.even:hover {
+                	background-color: @even;
+            	}
+            }
+        }
+    }
+}

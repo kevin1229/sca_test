@@ -1,0 +1,972 @@
+@contentWrapperBackground: #FFFFFF;
+
+// 로그인
+@loginHeadBackGround: #2d3e4e;
+@loginBody: #666666;
+@loginBodyBackGround: #ffffff;
+
+// 왼쪽 메뉴 기본 색상
+@sidebarBackground: #262626;
+@sidebarLeftBorder: #F74343;
+@sidebar: #999999;
+@sidebarHover: #F74343;
+@sidebarHoverBackground: #313131;
+
+// 드롭다운 메뉴 설정
+@dropdownBackground: #FFFFFF;
+@dropdownBorder: #525353;
+@dropdown: #8a8b8d;
+
+// 알림 및 다운로드 센터 색상
+@success: #31708f;
+@successBackground: #d9edf7;
+@successBorder: #bce8f1;
+
+@successAlertBackgrond: #6DD0C2;
+@successAlertBorder: transparent;
+
+@warning: #8a6d3b;
+@warningBackground: #fcf8e3;
+@warningBorder: #faebcc;
+
+@danger: #b94a48;
+@dangerBackground: #f2dede;
+@dangerBorder: #eed3d7;
+
+@complete: #3c763d;
+@completeBackground: #dff0d8;
+@completeBorder: #d6e9c6;
+
+@infoBackground: lightgray;
+
+@count: #ffffff;
+@countBackground: #ff5b57;
+
+// 왼쪽 고정 메뉴 색상 설정.
+@leftSideBackground: #262626;
+@leftSideDropdownBackground: #e4e4e4;
+@leftSideDropdownHover: #ffffff;
+@leftSideDropdownHoverBackground: #262626;
+@leftSideDropdownHoverLeftBorder: transparent;
+@leftSideBottomBorder: #F74343;
+@leftSideInfoTitleColor: #999999;
+
+// 다운로드 센터 설정.
+@downloadCenter: #252525;
+@downloadCenterIconGroup: #8a8a8a;
+@downloadCenterHeaderBackground: #e4e4e4;
+@downloadCenterCard: #5d5d5d;
+@downloadCenterCardInner: #3367d6;
+@downloadCenterCardOuter: inherit;
+@downloadCenterProgressBarBackground: #f7f7f7;
+@downloadCenterProgressBarCsv: #F5B451;
+@downloadCenterProgressBarWord: #399BDE;
+@downloadCenterProgressBarPdf: #E65D58;
+@downloadCenterProgressBarExcel: #6CC567;
+
+// 공통
+@productColor: #F74343;
+@common: #FFFFFF;
+@commonBackground: #F74343;
+@commonBackgroundHover: #F74343;
+@commonBorder: #F74343;
+@commonBorderHover: #F74343;
+@commonBtn: #616161;
+@commonBtnBorder: #616161;
+
+// TAB 컨트롤
+@tabBorder: #e9e9e9;
+@tabLinkHover: #F74343;
+@tabActiveBorderTop: #e9e9e9;;
+@tabActiveBorderBottom: #F74343;
+@tabActiveLink: #666666;
+@tabActiveLinkBackground: #FDFEFF;
+@tabActiveLinkBorder: #FDFEFF;
+@tabLink: #8A8B8D;
+
+// fancy tree style
+@fancyTreeBackground: #ffffff;
+@fancyTreeTitle: #7E7E7E;
+
+// 데이터 테이블 셋팅
+@datatable: #252525;
+@datatableBackground: peachpuff;
+@datatableHead: #555555;
+@datatableHeadBackground: #FFFFFF;
+
+// 프로젝트 화면 왼쪽
+@projectLeft: #ffffff;
+@projectLeftBackground: #F74343;
+@projectLeftBorder: #F74343;
+
+// 프로젝트 화면 가운데
+@projectCardHoverBoder: #F74343;
+@projectCardLinkBorder: transparent;
+@projectCardLinkRed: white;
+@projectCardLinkRedBackground: #ff3232;
+@projectCardLinkBlack: #ffffff;
+@projectCardLinkBlackBackground: #434343;
+@projectCardEmpty: #bbbbbb;
+@projectCardEmptyBackground: #F7F7F7;
+@projectCardEmptyLabel: #ffffff;
+@projectCardActive: #ffffff;
+@projectCardActiveBackground: #F74343;
+
+// 프로젝트 화면 오른쪽
+@projectRight: #8A8B8D;
+@projectRightBackground: #FFFFFF;
+@projectRightBorder: #FFFFFF;
+@projectRightTitle: #464950;
+
+// 숨김 버튼
+@toggleButton: #000000;
+
+// 오른쪽 화면 관련 스타일
+@ritghtSide: #8A8B8D;
+@ritghtSideBackground: #ECF0F5;
+@ritghtSideHeader: #464950;
+
+@ritghtSidePanelTitle: #464950;
+@ritghtSidePanelBackground: #FDFEFF;
+@ritghtSidePanelBorder: #E9E9E9;
+
+// Table
+@table: #252525;
+@tableHeaderBackground: #B2CFD8;
+@tableCellBackground: #ffffff;
+@tableBorder: #517994;
+@tableHoverBackground: #DFEBF1;
+@tableSelect: #F74343;
+@tableSelectBackground: #FFFFFF;
+@tableRowSelect: #FFFFFF;
+@tableRowSelectBackground: #F74343;
+
+// box관련 공통 설정.
+@boxPrimary: #dddddd;
+@boxHeader: #252525;
+
+// pa-checkbox스타일(커스텀 체크박스)
+@paCheckBorder: #d0d0d0;
+@paCheckImage: black;
+@paChecked: black;
+
+// 프로젝트 상세 화면
+@projectDetailTitle: #464950;
+@projectDetailSelectedProject: #3a87ad;
+@projectDetailSelectedProjectBackground: #eaeaea;
+
+// 검색 기준 텍스트 영역 설정.
+@searchText: #068591;
+
+// input
+@inputBorder: #e9e9e9;
+
+// Risk Level Color
+@RiskLevelFontColor: #eeeeee;
+@RiskLevel1BackgroundColor: #d32f2f;
+@RiskLevel2BackgroundColor: #f57c00;
+@RiskLevel3BackgroundColor: #e59701;
+@RiskLevel4BackgroundColor: #9e9d24;
+@RiskLevel5BackgroundColor: #616161;
+
+.skin-light {
+  .wrapper {
+    background: @contentWrapperBackground;
+  }
+  .main-sidebar,
+  .left-side {
+    background-color: @leftSideBackground;
+  }
+  // 로그인
+  .login_head {
+    background: @loginHeadBackGround;
+  }
+  .login-box-body {
+    color: @loginBody;
+    background: @loginBodyBackGround;
+  }
+  // 헤더 설정
+  .navbar {
+    .navbar-nav {
+      > .active > a,
+      > .active > a:hover,
+      > .active > a:focus {
+        color: @sidebarHover;
+        background: transparent;
+      }
+      > .open > a,
+      > .open > a:hover,
+      > .open > a:focus {
+        border-bottom: 2px solid #F74343;
+        color: @sidebarHover;
+        background-color: #080808;
+      }
+      > li > a {
+        color: @sidebar;
+        font-weight: 600;
+      }
+    }
+    .navbar-search {
+      i {
+        color: white;
+      }
+      input {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: transparent;
+        border-radius: 4px;
+        color: white;
+      }
+    }
+  }
+
+  // 왼쪽 메뉴 기본 색상.
+  .sidebar {
+    .sidebar-menu {
+      li.treeview {
+        > .treeview-menu {
+          background: @sidebarBackground;
+          padding-left: 0;
+        }
+        a {
+          color: @sidebar;
+          padding: 14px 5px 14px 15px;
+          font-weight: 600;
+          font-size: 12px;
+        }
+        
+        &.active > a, &:hover > a {
+          background: @sidebarHoverBackground;
+          border-top-right-radius: 2px;
+          border-bottom-right-radius: 2px;
+          padding: 14px 5px 14px 15px;
+          i {
+            color: #F74343;
+          }
+          span {
+          	color: #FFFFFF;
+          }
+        }
+      }
+      // 드롭다운 메뉴 설정
+      .dropdown-menu {
+        background-color: @dropdownBackground;
+        -webkit-box-shadow: 0 8px 6px -3px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 8px 6px -3px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 6px -3px rgba(0, 0, 0, 0.2);
+        border: 1px solid @inputBorder;
+        > li > a {
+          color: @leftSideBackground;
+        }
+      }
+    }
+  }
+
+  // 드롭다운 메뉴 설정
+  .dropdown-menu {
+    background-color: @dropdownBackground;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+    border: 1px solid @inputBorder;
+  }
+
+  .navbar-header {
+    .dropdown-menu {
+      border-top: 2px solid @commonBackground;
+    }
+  }
+
+  // 즐겨찾기 & 알림센터 카드 색상 설정
+  .notify-card-success {
+    color: @success;
+    background-color: @successBackground;
+    border-color: @successBorder;
+  }
+  .notify-card-completed {
+    color: @complete;
+    background-color: @completeBackground;
+    border-color: @completeBorder;
+  }
+  .notify-card-warning {
+    color: @warning;
+    background-color: @warningBackground;
+    border-color: @warningBorder;
+  }
+  .notify-card-danger {
+    color: @danger;
+    background-color: @dangerBackground;
+    border-color: @dangerBorder;
+  }
+  .label-notify-count {
+    color: @count !important;
+    background-color: @countBackground !important;
+  }
+  .fa-star.favorite-no {
+    color: #CACACA;
+  }
+  .fa-star.favorite-added {
+    color: #F39C12;
+  }
+
+  // 왼쪽 고정 메뉴 색상 설정.
+  .left-side-fixed-menu {
+    background-color: @leftSideBackground;
+    .dropdown-menu {
+      .box-header {
+        background-color: @leftSideDropdownBackground;
+      }
+    }
+    .nav-stacked {
+      > li {
+        > a {
+          color: @leftSideDropdownHover;
+          border-color: transparent;
+        }
+        &:hover {
+          border-color: transparent;
+        }
+        &.active {
+          > a,
+          > a:hover,
+          > a:focus {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  // 다운로드 센터 설정.
+  .left-side-fixed-menu {
+    .download-center-main {
+      color: @downloadCenter;
+      .icon-group {
+        color: @downloadCenterIconGroup;
+      }
+      .download-center-body {
+        .box-header {
+          background-color: @downloadCenterHeaderBackground;
+        }
+        .download-center-card {
+          color: @downloadCenterCard;
+          .card-inner-center {
+            color: @downloadCenterCardInner;
+          }
+          .date-outer {
+            color: @downloadCenterCardOuter;
+          }
+          .progress-bar-outer {
+            background-color: @downloadCenterProgressBarBackground;
+            box-shadow: rgba(0, 0, 0, 0.498039) 0 1px 3px inset;
+            .progress-bar-csv {
+              background-color: @downloadCenterProgressBarCsv;
+            }
+            .progress-bar-word {
+              background-color: @downloadCenterProgressBarWord;
+            }
+            .progress-bar-pdf {
+              background-color: @downloadCenterProgressBarPdf;
+            }
+            .progress-bar-excel {
+              background-color: @downloadCenterProgressBarExcel;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+*
+* 공통
+*
+*/
+.skin-light {
+  .open > .dropdown-toggle.btn-primary {
+    color: @common;
+    &, &:active:focus, &:hover, &:active {
+      background-color: @commonBackgroundHover;
+      border-color: @commonBackgroundHover;
+    }
+  }
+  .box.box-solid  > .box-header .btn:hover{
+    background-color: @commonBackgroundHover;
+    border-color: @commonBorder;
+  }
+
+	.btn-primary {
+    	color: @common;
+    	background-color: @commonBackground;
+    	border-color: @commonBorder;
+    	transition: all 0.4s ease;
+    	&:active:focus, &:hover, &:active, &.active {
+    		background-color: @commonBackgroundHover;
+    		border-color: @commonBorder;
+    	}
+    	i.fa {
+    		color: #ffffff;
+    	}
+	}
+
+	.btn-call {
+    	color: @common;
+    	background-color: #117fae;
+    	border-color: #117fae;
+    	transition: all 0.4s ease;
+    	&:active:focus, &:hover, &:active, &.active {
+	    	background-color: #117fae;
+    		border-color: #117fae;
+    	}
+    	i.fa {
+    		color: #ffffff;
+		}
+	}
+
+	.btn-radio {
+		border: 1px solid #e9e9e9;
+		&.active {
+			background: @commonBackground;
+			color: white;
+		}
+	}
+
+	.btn-warning {
+		color: @common;
+    	background-color: @commonBackground;
+    	border-color: @commonBorder;
+    	transition: all 0.4s ease;
+    	&:active:focus, &:hover, &:active, &.active {
+    		background-color: @commonBackgroundHover;
+    		border-color: @commonBorder;
+    	}
+	}
+
+	.btn-default {
+    	background-color: #FFFFFF;
+    	font-weight: 600;
+    	color: #666666;
+    	border-color: #AAAAAA;
+    	transition: all 0.4s ease;
+    	&:active:focus, &:hover, &:active {
+    		background-color: #FFFFFF;
+    	}
+	}
+
+	.btn-risk {
+    	cursor: default;
+		text-align: center;
+		border: 1px solid transparent;
+		border-radius: 2px;
+		padding: 2px 6px;
+		color: white;
+    	&.risk1 {
+    		background-color: #d32f2f;
+    	}
+	    &.risk2 {
+    		background-color: #f57c00;
+    	}
+    	&.risk3 {
+    		background-color: #fbc02d;
+    	}
+    	&.risk4 {
+    		background-color: #9e9d24;
+    	}
+    	&.risk5 {
+    	background-color: #616161;
+		}
+	}
+
+	.btn-transparent {
+    	background-color: transparent;
+    	color: #888888;
+    	border-color: transparent;
+    	transition: all 0.4s ease;
+    	&:active:focus, &:hover, &:active {
+    		-webkit-box-shadow: none;
+    		-moz-box-shadow: none;
+    	box-shadow: none;
+    	}
+	}
+	
+	.btn-group {
+    	.btn-primary {
+    		background-color: @contentWrapperBackground;
+    		color: #313131;
+    		border-color: #e9e9e9;
+    		&:active:focus, &:hover, &:active {
+        		background-color: #FFFFFF;
+    		}
+    		&.active {
+        		color: @contentWrapperBackground;
+        		background-color: @commonBackground;
+        		border-color: @commonBorder;
+    		}
+    	}
+	}
+}
+
+/*
+*
+* TAB 컨트롤
+*
+*/
+.skin-light .nav-tabs-custom,
+.skin-light .nav-tabs-spw {
+  /*background-color: #FDFEFF;*/
+  > .nav-tabs {
+    border-bottom-color: @tabBorder;
+    > li {
+      min-width: 122px;
+      height: 30px;
+      &.hover > a {
+        color: @tabLinkHover;
+      }
+      &.active, & {
+        border-top: 1px solid @tabActiveBorderTop;
+        border-left: none;
+        border-right: 1px solid @tabActiveBorderTop;
+        > a {
+          color: @tabActiveLink;
+          background-color: @tabActiveLinkBackground;
+          border: none;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      &:first-child {
+        border-left: 1px solid @tabActiveBorderTop;
+      }
+      &.active {
+        border-bottom: 3px solid @tabActiveBorderBottom;
+      }
+      > a {
+        color: @tabLink;
+      }
+    }
+  }
+}
+
+/*
+*
+* fancy tree style 
+*
+*/
+.skin-light .tree-area {
+  .ui-fancytree.fancytree-container {
+    background-color: @fancyTreeBackground;
+    li span.fancytree-title {
+      color: @fancyTreeTitle;
+    }
+    color: @commonBtn;;
+  }
+
+  .fancytree-plain.fancytree-container {
+    &.fancytree-treefocus {
+      span.fancytree-node.fancytree-active {
+        & span.fancytree-title,
+        &:hover span.fancytree-title {
+          background-color: @boxPrimary;
+          border-color: @boxPrimary;
+          color: @fancyTreeTitle;
+        }
+      }
+    }
+
+    span.fancytree-node.fancytree-active {
+      & span.fancytree-title,
+      &:hover span.fancytree-title {
+        background-color: @boxPrimary;
+        color: @fancyTreeTitle;
+      }
+    }
+  }
+}
+
+/**
+ *
+ * 데이터 테이블 셋팅
+ *
+ */
+.skin-light table.dataTable tbody tr.row-selected {
+  color: @datatable;
+  background: @datatableBackground;
+}
+
+/*
+ *
+ * common status alert
+ * 즐겨찾기 추가완료 등 상태 메세지 화면 가운데 뜨는거임.
+ */
+.skin-light {
+  .alert-success-org {
+    color: @complete;
+    background-color: @completeBackground;
+    border-color: @completeBorder;
+  }
+  .alert-warning-org {
+    color: @warning;
+    background-color: @warningBackground;
+    border-color: @warningBorder;
+  }
+  .alert-info-org {
+    color: @success;
+    background-color: @successBackground;
+    border-color: @successBorder;
+  }
+  .alert-search-info {
+    background: @infoBackground;
+  }
+  .alert-success {
+    background-color: @successAlertBackgrond !important;
+    border-color: @successAlertBorder;
+  }
+  .alert-warning-cutom {
+    color: @warning !important;
+    background-color: @warningBackground !important;
+    border-color: @warningBorder;
+    padding: 6px 10px;
+  }
+  .alert {
+    border: 1px solid transparent;
+    -webkit-box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.21);
+    box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.21);
+  }
+}
+
+/*
+ *
+ * 프로젝트 화면
+ *
+ */
+.skin-light {
+  // 왼쪽
+  .sidebar .sidebar-menu > li button.btn-block {
+    color: @projectLeft;
+    background: @projectLeftBackground;
+    border-color: @projectLeftBorder;
+
+  }
+
+  // 오른쪽
+  .right-side-400.project-detail {
+    color: @projectRight;
+    background: @projectRightBackground;
+    border-left: 1px solid @projectRightBorder;
+    .title-span {
+      color: @projectRightTitle;
+    }
+  }
+}
+
+// 위의 왼쪽 메뉴(line:108)에 추가 해야함.
+.skin-light .treeview-menu > li.active > a,
+.skin-light .treeview-menu > li > a:hover {
+  color: @sidebarHover;
+  background: #1e2027;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+ul {
+  li {
+    a {
+      color: #ffffff;
+    }
+  }
+}
+
+
+
+/*
+* 
+* 가운데 화면(content) 관련 스타일
+* 
+*/
+// content 왼쪽, 오른쪽 숨김 버튼
+.content-wrapper {
+  background-color: @contentWrapperBackground;
+}
+
+// Common Color
+.skin-light .wrapper {
+  .input-group {
+    .input-group-addon {
+      border-top: 1px solid @inputBorder;
+      border-left: 1px solid @inputBorder;
+      border-bottom: 1px solid @inputBorder;
+      background: #FFFFFF;
+    }
+  }
+  .form-control {
+    border: 1px solid @inputBorder;
+  }
+}
+
+
+
+  
+.select2-container--default {
+	.select2-selection--multiple .select2-selection__choice {
+    	background-color: @commonBackground;
+    	border-color: @commonBorder;
+    	color: #fff;
+	}
+	.select2-results__option--highlighted[aria-selected] {
+		background-color: @commonBackground;
+		color: white;
+	}
+}
+
+
+/**
+ * Table
+ */
+table {
+  thead {
+    color: @datatableHead;
+    background: @datatableHeadBackground;
+  }
+  &.dropdown-table-style {
+    color: @table;
+    th {
+      background-color: @tableHeaderBackground;
+    }
+    td {
+      background-color: @tableCellBackground;
+    }
+    th, td {
+      border: solid @tableBorder;
+
+    }
+    tr:hover td {
+      background-color: @tableHoverBackground;
+    }
+  }
+  .selected .table-inner-link {
+    color: @tableSelect;
+    background: @tableSelectBackground;
+  }
+  .row-selected .table-inner-link {
+    color: @tableRowSelect;
+    background: @tableRowSelectBackground;
+  }
+}
+
+/*
+*
+* box관련 공통 설정.
+*
+*/
+.box {
+  background: @common;
+  &.box-primary {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid @boxPrimary
+  }
+  .box-header {
+    i.fa {
+      color: @commonBackground;
+      padding-right: 5px;
+    }
+    button {
+      i.fa {
+        color: @common;
+      }
+    }
+  }
+  .count {
+    color: @commonBackground;
+  }
+}
+
+.box-header-text {
+  color: @boxHeader;
+}
+
+
+// 전체 화면 공통
+@formGroup: red;
+
+/*
+*
+* 전체 화면 공통
+*
+*/
+.form-group.required {
+	.control-label:after {
+		color: @formGroup;
+	}
+}
+
+/*
+*
+* 프로젝트 화면
+* 위에 있음. 위에 추가 바람.
+*/
+//오른쪽
+.right-side-400.project-detail {
+  .title-span {
+    color: @projectDetailTitle;
+  }
+  #selectedProjectListRoot {
+    .selectedProjectCard {
+      color: @projectDetailSelectedProject;
+      background-color: @projectDetailSelectedProjectBackground;
+    }
+  }
+}
+
+/*
+*
+* 검색 기준 텍스트 영역 설정.
+*
+*/
+.search-condition {
+  .search-text {
+    color: @searchText;
+  }
+}
+
+/**
+ * Chart 색상
+ */
+//.chart-row {
+
+//}
+
+/**
+ * Modal 색상
+ */
+.modal {
+  .file-input .upload-icon {
+    color: @commonBackground;
+  }
+  .project-icon {
+    color: @commonBackground;
+  }
+}
+
+.checkbox input[type="checkbox"],
+.checkbox input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox input[type="radio"] {
+  &:checked + label::before,
+  &:indeterminate + label::before {
+    background-color: @commonBackground;
+    border-color: @commonBorder;
+  }
+  & + label::before {
+    border: 1px solid #555555;
+  }
+}
+
+@media (max-width: 991px) {
+  .content-header>.breadcrumb {
+    background: none;
+  }
+}
+
+
+span.blue {
+  color : @commonBackground;
+}
+
+/**
+ * modal-dialog
+ */
+.modal-dialog {
+	.nav-tabs, .tab-content {
+		.button-style-radio {
+			.radio-label {
+				background-color: @contentWrapperBackground;
+			}
+			input[type=radio] {
+				display: none;
+				&:checked + div {
+					color: @contentWrapperBackground;
+					background-color: @commonBackground;
+					border-color: @commonBorder;
+				}
+			}
+		}
+		li {
+			a {
+				background-color: @contentWrapperBackground;
+        	}
+			&.active {
+				a {
+					color: @contentWrapperBackground;
+					background-color: @commonBackground;
+					border-color: @commonBorder;
+				}
+			}
+		}
+	}
+}
+
+.info {
+	.info-event {
+		background: @commonBackground;
+		border-color: @commonBorder;
+		color: white;
+	}
+}
+
+/**
+ * daterangepicker
+ */
+.daterangepicker {
+	.calendar {
+		th,  td {
+			background: #ffffff;
+			&.active, &.active:hover {
+				background: @commonBackground;
+			}
+		}
+	}
+	
+	td {
+		&.active, &.active:hover {
+			background-color: @commonBackground;
+			border-color: transparent;
+		}
+	}
+	
+	.ranges {
+		.range_inputs {
+			button {
+				&.btn-success, &.btn-success:hover{
+					background: @commonBackground;
+					border-color: @commonBorder;
+				}
+			}
+		}
+
+		li {
+			background: #ffffff;
+			border-color: #ffffff;
+			color: #000000;
+			&.active {
+			  background: @commonBackground;
+			  border-color: @commonBorder;
+			  color: @common;
+			}
+			&.active:hover {
+				background: @commonBackground;
+				border-color: @commonBorder;
+				color: @common;
+			}
+			&:hover {
+				background: @commonBackgroundHover;
+				border-color: @commonBorderHover;
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+table.dataTable tbody tr[role="row"] {
+  cursor: default !important;
+  transition: all 0.3s ease-in-out;
+}
+table.dataTable tbody tr[role="row"]:hover {
+  background-color: transparent !important;
+}
+table.dataTable tbody tr[role="row"].even:hover {
+  background-color: #fcfcfc !important;
+}
+
+/*# sourceMappingURL=parameter.css.map */

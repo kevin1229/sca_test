@@ -1,0 +1,1 @@
+{"version":3,"sources":["../less/main-sidebar-left.less"],"names":[],"mappings":"AAEE,QAAC,QACC;EACE,aAAA;EACA,cAAA","sourcesContent":["\r\n.sidebar {\r\n  &.setting {\r\n    .treeview-menu-title {\r\n      padding: 14px;\r\n      color: #eeeeee;\r\n    }\r\n  }\r\n}\r\n"]}

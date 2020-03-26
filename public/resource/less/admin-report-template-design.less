@@ -1,0 +1,251 @@
+@designBlockBackgroundColor: rgba(0,0,0,0.15);
+@designBlockColor: #000;
+@designBlockCollapseHoverColor: #6f6f6f;
+@customColor: #3f51b5;
+
+.wrapper .content-wrapper section.content {
+	.content-left, .content-right {
+		float:left;
+    	position: relative;
+	}
+	.content-left {
+		width: 500px;
+		float:left;
+    	position: relative;
+	}
+	.content-right {
+		float:left;
+    	position: relative;
+	}
+	
+	.setting-box {
+		padding: 5px;
+		margin-bottom: 0;
+		> form {
+			padding: 0 0 0 5px;
+		}
+		.button-group {
+			text-align: right;
+		}
+	}
+	
+	.design-box {
+		padding: 5px;
+		margin-bottom: 5px;
+	    font-size: 13px;
+    	.box-header {
+    		padding: 0;
+    		.title {
+	            padding: 5px;
+			    line-height: 20px;
+			    margin-top: 5px;
+			    margin-bottom: 5px;
+			    float: left;
+			    border-radius: 2px;
+			    font-size: 13px;
+			    font-weight: 600;
+    		}
+    		.preview-btn {
+    			float: right;
+    			margin-top: 5px;
+    			i.fa {
+					padding-right: 10px;
+				    color: #ffffff;
+    			}
+    		}
+    	}
+    	.box-body {
+			list-style-type: none;
+			> ul {
+				padding-left: 0;	
+				list-style-type: none;
+				ul {
+					padding-left: 20px;	
+					list-style-type: none;
+				}
+			}
+    		.sortable {
+    			ul {
+    				margin-top: 6px;
+    			}
+    		}
+    		.ui-sortable-handle {
+    			cursor: n-resize;
+    		}
+    		.no-drag-handle {
+    			.ui-sortable-handle {
+    				cursor: default
+    			}
+    		}
+    		.block {
+    			font-weight: 600;
+				line-height: 24px;
+				padding: 5px;
+				border: 1px solid @designBlockBackgroundColor;
+				background-color: @designBlockBackgroundColor;
+				margin-bottom: 2px;
+				.block-title {
+					.drag-icon {
+						margin-right: 8px;
+					}
+					a[data-toggle=collapse] {
+			    		color: @designBlockColor;
+			    		&:hover {
+			    			color: @designBlockCollapseHoverColor;
+			    		}
+			    		i.collapse-icon {
+			    			margin-left: 5px;
+			    			font-size: 18px;
+    						vertical-align: middle;
+			    		}
+			    		&[aria-expanded=true] {
+			    			i.collapse-icon {
+		    				    -webkit-transform: rotate(-180deg);
+							    -ms-transform: rotate(-180deg);
+							    transform: rotate(-180deg);
+			    			}
+			    		}
+			    		.custom-name-label {
+							color: @customColor;
+							&:hover {
+								cursor: text;
+    							opacity: 0.7;
+							}
+						}
+			    	}
+			    	.block-title-text {
+					    max-width: 260px;
+					    display: inline-block;
+					    word-break: break-all;
+			    	}
+			    	.sub-title {
+			    		margin-left: 10px;
+    					color: #666666;
+			    	}
+					.block-visible {
+						float: right;
+					}
+		    		.custom-data {
+		    			.custom-data-btn {
+						    height: 22px;
+						    padding: 1px 10px;
+						    margin-right: 10px;
+						    border-color: #e9e9e9;
+		    			}
+		    		}
+				}
+				.select2-selection {
+				    padding: 4px 0px;
+				    min-height: 30px;
+				    height: 30px;
+				}
+				table.customTable {
+					.switch-column {
+						width: 70px;
+					}
+					tbody tr[role="row"].even {
+					    background-color: #fcfcfc;
+					}
+				}
+			}
+    		.logo-file{
+    			line-height: 33px;
+    			display: none;
+				.file-input {
+				    width: 350px;
+					float: right;
+					.file-caption-main {
+						.file-caption {
+					        margin-top: 2px;
+    						height: 30px;
+    						.kv-caption-icon {
+    							display:none;
+    						}
+						}
+					}
+					.file-preview {
+					    background: #ffffff;
+				        color: #666666;
+						.file-drop-zone {
+	    					margin: 0;
+	    					padding: 0;
+	    					.file-drop-zone-title {
+	    						color: #666666;
+	    						line-height: 22px;
+	    						font-size: 13px;
+		    					padding: 0;
+		    				}
+	    				}
+					}
+				}
+			}
+			.section {
+				> .block-body > ul {
+					padding-left: 20px;
+					.custom-data-area {
+						width: 100%;
+						height: 150px;
+					}
+				}
+			}
+    	}
+    	.design-box-placeholder {
+    		height: 100px;
+    		margin: 2px;
+    		border: 2px dotted black;
+    	}
+    	.box-body {
+	        height: 600px;
+			width: 100%;
+		    overflow-y: scroll;
+		    overflow-x: hidden;
+	    	color: @designBlockColor;
+	    	border: 1px solid @designBlockBackgroundColor;
+	    	padding: 5px;
+    	}
+    	
+    }
+    .preview-box  {
+    	padding: 5px;
+    	float:left;
+    	position: relative;
+    	.box {
+            border: 1px solid rgba(0, 0, 0, 0.15);
+	        margin-bottom:10px;
+	        .box-body {
+				width: 905px;
+	        	height: 756px;;	    
+	        	padding: 0;
+	        	.empty-div {
+        		    text-align: center;
+					padding-top: 100px;
+				    opacity: 0.37;
+	        		i {
+	        			font-size: 200px;
+	        		}
+	        		.preview-text {
+        			    display: block;
+					    margin-top: 100px;
+					    font-size: 58px;
+	        		}
+	        	}
+	        	.progress-div {
+	        		text-align: center;
+					padding-top: 100px;
+				    opacity: 0.37;
+	        		i {
+	        			font-size: 200px;
+	        		}
+	        	}
+	        }
+    	}
+    }
+    
+	#pdfViewer {
+        border: none;
+        body {
+	        margin: 0;
+	    }   
+    }
+
+}

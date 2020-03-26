@@ -1,0 +1,490 @@
+.left-side-menu .status-scan-id,
+.left-side-fixed-menu .status-scan-id {
+  color: #F74343;
+}
+.left-side-menu li.status,
+.left-side-fixed-menu li.status {
+  color: #eeeeee;
+  padding: 16px 16px 20px 16px;
+}
+.left-side-menu li.status .tooltip-inner,
+.left-side-fixed-menu li.status .tooltip-inner {
+  max-width: 192px;
+  word-break: break-all;
+}
+.left-side-menu li.status.status-design,
+.left-side-fixed-menu li.status.status-design {
+  padding: 8px;
+}
+.left-side-menu li.status.status-design .status-infos,
+.left-side-fixed-menu li.status.status-design .status-infos {
+  height: auto;
+  padding-bottom: 40px;
+}
+.left-side-menu li.status .status-icon,
+.left-side-fixed-menu li.status .status-icon {
+  text-align: center;
+  margin: 24px 0;
+}
+.left-side-menu li.status .status-icon i,
+.left-side-fixed-menu li.status .status-icon i {
+  font-size: 48px;
+  color: #F74343;
+}
+.left-side-menu li.status .status-name,
+.left-side-fixed-menu li.status .status-name {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.left-side-menu li.status .status-note,
+.left-side-fixed-menu li.status .status-note {
+  color: #6f6f6f;
+  font-size: 11px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.left-side-menu li.status .status-infos,
+.left-side-fixed-menu li.status .status-infos {
+  margin-top: 32px;
+  min-height: 330px;
+}
+.left-side-menu li.status .status-infos .status-info,
+.left-side-fixed-menu li.status .status-infos .status-info {
+  margin-top: 16px;
+  display: table;
+  width: 100%;
+}
+.left-side-menu li.status .status-infos .status-info .info-title,
+.left-side-fixed-menu li.status .status-infos .status-info .info-title {
+  font-weight: 600;
+  color: #999999;
+}
+.left-side-menu li.status .status-infos .status-info .info-contents,
+.left-side-fixed-menu li.status .status-infos .status-info .info-contents {
+  margin-top: 4px;
+  word-wrap: break-word;
+  white-space: normal;
+  word-break: break-all;
+  font-weight: 600;
+}
+.left-side-menu li.status .status-infos .status-info .info-contents .status-numeric-changing.increased,
+.left-side-fixed-menu li.status .status-infos .status-info .info-contents .status-numeric-changing.increased {
+  color: #d32f2f;
+}
+.left-side-menu li.status .status-infos .status-info .info-contents .status-numeric-changing.decreased,
+.left-side-fixed-menu li.status .status-infos .status-info .info-contents .status-numeric-changing.decreased {
+  color: #0277bd;
+}
+.left-side-menu li.status .status-infos .status-info .info-contents .status-numeric-changing i,
+.left-side-fixed-menu li.status .status-infos .status-info .info-contents .status-numeric-changing i {
+  margin-right: 4px;
+}
+.left-side-menu li.status .status-infos .status-info .info-contents .left-side-fixed-textarea,
+.left-side-fixed-menu li.status .status-infos .status-info .info-contents .left-side-fixed-textarea {
+  background-color: rgba(37, 37, 37, 0.9);
+  resize: none;
+  width: 170px !important;
+  border: none;
+}
+.left-side-menu li.status .status-infos .status-info .info-button button,
+.left-side-fixed-menu li.status .status-infos .status-info .info-button button {
+  width: 96%;
+  height: 24px;
+}
+.left-side-menu li.status .status-infos .status-info a.underline-link,
+.left-side-fixed-menu li.status .status-infos .status-info a.underline-link {
+  color: #eeeeee;
+  padding: 0;
+}
+.left-side-menu li.status .status-infos .status-info a.underline-link:hover,
+.left-side-fixed-menu li.status .status-infos .status-info a.underline-link:hover,
+.left-side-menu li.status .status-infos .status-info a.underline-link:active,
+.left-side-fixed-menu li.status .status-infos .status-info a.underline-link:active,
+.left-side-menu li.status .status-infos .status-info a.underline-link:focus,
+.left-side-fixed-menu li.status .status-infos .status-info a.underline-link:focus {
+  text-decoration: underline;
+}
+.left-side-menu li.status .status-infos .status-info button,
+.left-side-fixed-menu li.status .status-infos .status-info button {
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 0 6px;
+  margin: 2px 2px;
+  float: left;
+}
+.left-side-menu li.status .status-infos .status-info button.design,
+.left-side-fixed-menu li.status .status-infos .status-info button.design {
+  padding: 2px;
+  line-height: 1.2;
+  width: 53px;
+  height: 34px;
+}
+.left-side-menu li.status .status-infos .status-info button.info-all-risk,
+.left-side-fixed-menu li.status .status-infos .status-info button.info-all-risk {
+  float: none;
+  background-color: #F74343;
+  display: block;
+  width: 100%;
+}
+.left-side-menu li.status .status-infos .status-info button.info-risk1,
+.left-side-fixed-menu li.status .status-infos .status-info button.info-risk1 {
+  background-color: #d32f2f;
+}
+.left-side-menu li.status .status-infos .status-info button.info-risk2,
+.left-side-fixed-menu li.status .status-infos .status-info button.info-risk2 {
+  background-color: #f57c00;
+}
+.left-side-menu li.status .status-infos .status-info button.info-risk3,
+.left-side-fixed-menu li.status .status-infos .status-info button.info-risk3 {
+  background-color: #e59701;
+}
+.left-side-menu li.status .status-infos .status-info button.info-risk4,
+.left-side-fixed-menu li.status .status-infos .status-info button.info-risk4 {
+  background-color: #9e9d24;
+}
+.left-side-menu li.status .status-infos .status-info button.info-risk5,
+.left-side-fixed-menu li.status .status-infos .status-info button.info-risk5 {
+  background-color: #616161;
+}
+.left-side-menu li.status .status-infos .status-info a.risk,
+.left-side-fixed-menu li.status .status-infos .status-info a.risk {
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 0 6px;
+  margin: 2px 2px;
+  float: left;
+  color: #eeeeee;
+  cursor: hand;
+}
+.left-side-menu li.status .status-infos .status-info a.risk:hover,
+.left-side-fixed-menu li.status .status-infos .status-info a.risk:hover {
+  text-decoration: underline;
+}
+.left-side-menu li.status .status-infos .status-info a.risk.design,
+.left-side-fixed-menu li.status .status-infos .status-info a.risk.design {
+  padding: 2px;
+  line-height: 1.2;
+  width: 53px;
+  height: 34px;
+}
+.left-side-menu li.status .status-infos .status-info a.risk.info-all-risk,
+.left-side-fixed-menu li.status .status-infos .status-info a.risk.info-all-risk {
+  float: none;
+  background-color: #F74343;
+  display: block;
+  width: 100%;
+}
+.left-side-menu li.status .status-infos .status-info a.risk.info-risk1,
+.left-side-fixed-menu li.status .status-infos .status-info a.risk.info-risk1 {
+  background-color: #d32f2f;
+}
+.left-side-menu li.status .status-infos .status-info a.risk.info-risk2,
+.left-side-fixed-menu li.status .status-infos .status-info a.risk.info-risk2 {
+  background-color: #f57c00;
+}
+.left-side-menu li.status .status-infos .status-info a.risk.info-risk3,
+.left-side-fixed-menu li.status .status-infos .status-info a.risk.info-risk3 {
+  background-color: #e59701;
+}
+.left-side-menu li.status .status-infos .status-info a.risk.info-risk4,
+.left-side-fixed-menu li.status .status-infos .status-info a.risk.info-risk4 {
+  background-color: #9e9d24;
+}
+.left-side-menu li.status .status-infos .status-info a.risk.info-risk5,
+.left-side-fixed-menu li.status .status-infos .status-info a.risk.info-risk5 {
+  background-color: #616161;
+}
+.left-side-menu li.sm-status,
+.left-side-fixed-menu li.sm-status {
+  color: #eeeeee;
+  padding: 0;
+  margin-top: 23px;
+}
+.left-side-menu li.sm-status .status-infos,
+.left-side-fixed-menu li.sm-status .status-infos {
+  margin-top: 145px;
+  margin-left: 3px;
+  height: 420px;
+}
+.left-side-menu li.sm-status .status-name,
+.left-side-fixed-menu li.sm-status .status-name {
+  -webkit-transform: rotate(90deg);
+  /* Chrome, Safari, Opera */
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: 0 100%;
+  /* Chrome, Safari, Opera */
+  -ms-transform-origin: 0 100%;
+  /* IE 9 */
+  -moz-transform-origin: 0 100%;
+  height: 33px;
+  margin-top: -39px;
+}
+.left-side-menu li.sm-status .status-name a,
+.left-side-fixed-menu li.sm-status .status-name a {
+  display: inline-block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s, linear;
+  transition-delay: 1s;
+  font-size: 15px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.left-side-menu li.sm-status .status-name .status-project-name,
+.left-side-fixed-menu li.sm-status .status-name .status-project-name {
+  color: #eeeeee;
+  width: 110px;
+  text-align: center;
+}
+.left-side-menu li.sm-status.hidden .status-name span,
+.left-side-fixed-menu li.sm-status.hidden .status-name span {
+  display: none;
+}
+.left-side-menu li.sm-status .status-info,
+.left-side-fixed-menu li.sm-status .status-info {
+  -webkit-transform: rotate(90deg);
+  /* Chrome, Safari, Opera */
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: 0 100%;
+  /* Chrome, Safari, Opera */
+  -ms-transform-origin: 0 100%;
+  /* IE 9 */
+  -moz-transform-origin: 0 100%;
+  width: 400px;
+}
+.left-side-menu li.sm-status .status-info .info-contents,
+.left-side-fixed-menu li.sm-status .status-info .info-contents {
+  width: 100%;
+}
+.left-side-menu li.sm-status .status-info .info-contents button,
+.left-side-fixed-menu li.sm-status .status-info .info-contents button {
+  margin: 0 0px 12px 6px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 0 6px;
+}
+.left-side-menu li.sm-status .status-info .info-contents button.info-all-risk,
+.left-side-fixed-menu li.sm-status .status-info .info-contents button.info-all-risk {
+  background-color: #F74343;
+  margin-right: 12px;
+}
+.left-side-menu li.sm-status .status-info .info-contents button.info-risk1,
+.left-side-fixed-menu li.sm-status .status-info .info-contents button.info-risk1 {
+  background-color: #d32f2f;
+}
+.left-side-menu li.sm-status .status-info .info-contents button.info-risk2,
+.left-side-fixed-menu li.sm-status .status-info .info-contents button.info-risk2 {
+  background-color: #d35501;
+}
+.left-side-menu li.sm-status .status-info .info-contents button.info-risk3,
+.left-side-fixed-menu li.sm-status .status-info .info-contents button.info-risk3 {
+  background-color: #e59701;
+}
+.left-side-menu li.sm-status .status-info .info-contents button.info-risk4,
+.left-side-fixed-menu li.sm-status .status-info .info-contents button.info-risk4 {
+  background-color: #827717;
+}
+.left-side-menu li.sm-status .status-info .info-contents button.info-risk5,
+.left-side-fixed-menu li.sm-status .status-info .info-contents button.info-risk5 {
+  background-color: #4a5061;
+}
+.left-side-menu hr,
+.left-side-fixed-menu hr {
+  margin: 0;
+}
+.left-side-menu .btn-default,
+.left-side-fixed-menu .btn-default {
+  margin: 7px 3px 7px 8px;
+  padding: 4px 8px;
+}
+.left-side-menu .btn-primary,
+.left-side-fixed-menu .btn-primary {
+  margin: 7px 16px 7px 3px;
+  padding: 4px 22px;
+  word-spacing: 12px;
+}
+.left-side-menu .nav-tabs,
+.left-side-fixed-menu .nav-tabs {
+  border-bottom: 0;
+  position: relative;
+  background: #525353;
+  border-top: 4px solid #F74343;
+}
+.left-side-menu .sidebar-nav,
+.left-side-fixed-menu .sidebar-nav {
+  width: inherit;
+}
+.left-side-menu .sidebar-nav .main-sidebar,
+.left-side-fixed-menu .sidebar-nav .main-sidebar {
+  width: inherit;
+}
+.left-side-menu .sidebar-nav .main-sidebar i,
+.left-side-fixed-menu .sidebar-nav .main-sidebar i {
+  line-height: 1.2;
+  font-size: 15px;
+  vertical-align: bottom;
+  text-align: center;
+}
+.left-side-menu .sidebar-nav .main-sidebar li.treeview i,
+.left-side-fixed-menu .sidebar-nav .main-sidebar li.treeview i {
+  padding-right: 25px;
+}
+.left-side-menu .sidebar-nav .main-sidebar span,
+.left-side-fixed-menu .sidebar-nav .main-sidebar span {
+  vertical-align: top;
+  /*margin-left: 7px;*/
+}
+.left-side-menu .sidebar-nav .main-sidebar .open li,
+.left-side-fixed-menu .sidebar-nav .main-sidebar .open li {
+  border-bottom: 1px solid transparent;
+}
+.left-side-menu .sidebar-nav .main-sidebar .slimScrollBar,
+.left-side-fixed-menu .sidebar-nav .main-sidebar .slimScrollBar {
+  background: #ffffff !important;
+  width: 6px !important;
+}
+.left-side-menu .open .main.dropdown-menu,
+.left-side-fixed-menu .open .main.dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+.left-side-menu .dropdown-menu,
+.left-side-fixed-menu .dropdown-menu {
+  position: fixed;
+  left: 55px;
+  top: 90px;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+.left-side-menu .dropdown-menu .divider,
+.left-side-fixed-menu .dropdown-menu .divider {
+  margin: 0;
+}
+.left-side-menu .dropdown-menu .dropdown-submenu,
+.left-side-fixed-menu .dropdown-menu .dropdown-submenu {
+  position: relative;
+}
+.left-side-menu .dropdown-menu .dropdown-submenu:hover ul,
+.left-side-fixed-menu .dropdown-menu .dropdown-submenu:hover ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+  opacity: 1;
+  visibility: visible;
+}
+.left-side-menu .dropdown-menu .dropdown-submenu:hover a .material-icons,
+.left-side-fixed-menu .dropdown-menu .dropdown-submenu:hover a .material-icons {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.left-side-menu .dropdown-menu > li > a,
+.left-side-fixed-menu .dropdown-menu > li > a {
+  padding: 12px 18px;
+}
+.left-side-menu .dropdown-menu .text,
+.left-side-fixed-menu .dropdown-menu .text {
+  padding: 12px;
+}
+.left-side-menu button[aria-expanded="true"] .material-icons,
+.left-side-fixed-menu button[aria-expanded="true"] .material-icons {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.left-side-menu .treeview,
+.left-side-fixed-menu .treeview {
+  cursor: pointer;
+}
+.left-side-menu .treeview.active,
+.left-side-fixed-menu .treeview.active {
+  cursor: default;
+}
+.left-side-menu .nav-stacked > li .label-notify-count,
+.left-side-fixed-menu .nav-stacked > li .label-notify-count {
+  top: 0;
+  right: 3px;
+}
+.left-side-menu .nav-stacked > li > a,
+.left-side-fixed-menu .nav-stacked > li > a {
+  border-top: 0;
+  border-right: 0;
+  padding: 2px 2px;
+  line-height: 0;
+  background-color: transparent;
+}
+.left-side-menu .nav-stacked > li > a .material-icons,
+.left-side-fixed-menu .nav-stacked > li > a .material-icons {
+  font-size: 30px;
+}
+.left-side-menu .nav-stacked > li > a .fa,
+.left-side-fixed-menu .nav-stacked > li > a .fa {
+  font-size: 28px;
+}
+.left-side-menu .nav-stacked > li.active > a,
+.left-side-fixed-menu .nav-stacked > li.active > a,
+.left-side-menu .nav-stacked > li.active > a:hover,
+.left-side-fixed-menu .nav-stacked > li.active > a:hover,
+.left-side-menu .nav-stacked > li.active > a:focus,
+.left-side-fixed-menu .nav-stacked > li.active > a:focus {
+  border-right-width: 0;
+  background-color: transparent;
+  border-left-width: 3px;
+}
+.left-side-fixed-menu {
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  overflow: hidden;
+  width: 192px;
+}
+.left-side-menu {
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  overflow: hidden;
+  width: 50px;
+}
+.left-side-menu.open {
+  width: 192px;
+}
+.left-side-menu.open .main-sidebar {
+  box-shadow: 0 8px 6px 3px rgba(0, 0, 0, 0.3);
+}
+.left-side-menu.open .treeview span {
+  visibility: visible;
+  opacity: 1;
+}
+.left-side-menu .btn-sm {
+  display: inline-block;
+  padding: 4px 8px;
+}
+.left-side-menu .treeview span {
+  visibility: hidden;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=left-fixed-menu.css.map */

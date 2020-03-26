@@ -1,0 +1,135 @@
+.board .box {
+  margin: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.board .box-body {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.board .button-group button {
+  min-width: 70px;
+}
+.board .label-board {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 2px 2px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.board div.label-board {
+  min-width: 55px;
+}
+.board .label-board-notice-status-notice {
+  background-color: #3c73ac;
+}
+.board .label-board-notice-status-faq {
+  background-color: #ea7c0b;
+}
+.board .label-board-notice-status-etc {
+  background-color: #686868;
+}
+.board .label-board-notice-popup {
+  background-color: #669933;
+}
+.board .label-board-qna-status-request {
+  background-color: #cb3435;
+  cursor: pointer;
+}
+.board .label-board-qna-status-request:HOVER {
+  text-decoration: underline;
+}
+.board .label-board-qna-status-complete {
+  background-color: #0b9487;
+  cursor: pointer;
+}
+.board .label-board-qna-status-complete:HOVER {
+  text-decoration: underline;
+}
+.board .label-board-qna-status-etc {
+  background-color: #686868;
+}
+.board .label-board-qna-private {
+  background-color: #4682B4;
+}
+.board i.material-icons.subject-icon {
+  color: #ff3c00;
+}
+.board span.deleted {
+  color: #aaaaaa;
+}
+.board .board-divide li {
+  display: inline-block;
+}
+.board .board-divide li:not(:first-child):before {
+  content: '|\00a0';
+}
+.board .board-divide li .btn {
+  padding: 0;
+  height: 20px;
+}
+.board .board-file {
+  min-height: 30px;
+}
+.board .board-file .file-preview-frame.krajee-default.kv-preview-thumb {
+  height: 90px;
+}
+.board .board-file .krajee-default.file-preview-frame {
+  padding: 6px 6px 2px 6px;
+}
+.board .board-file .krajee-default .file-actions {
+  margin-top: 0px;
+}
+.board .board-file .file-upload-indicator {
+  display: none;
+}
+.board .board-file .file-input.file-input-ajax-new.disabled {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+.board .note-editor {
+  margin-top: 10px;
+}
+.board-box {
+  border: 2px solid #e5e5e5;
+  padding: 10px 10px;
+}
+.board-box .board-box-top {
+  margin: 10px;
+}
+.board-box .board-box-top.board-box-top-underline {
+  border-bottom: 1px dashed #e5e5e5;
+}
+.board-box .board-box-attach {
+  margin-right: 10px;
+  text-align: right;
+}
+.board-box .board-box-content {
+  padding: 5px 20px 10px 20px;
+  word-break: break-all;
+}
+.board-box .board-box-reply {
+  margin: 10px 1px 1px 1px;
+  padding: 5px 5px;
+}
+.board-box .board-box-reply .reply-count {
+  color: red;
+}
+.board-box .board-box-reply .reply {
+  border-bottom: 1px dotted #cccccc;
+  padding: 10px 10px;
+}
+.board-box .board-box-reply .reply-input {
+  margin: 10px 10px;
+}
+.board-box .board-box-reply .reply-update-btn {
+  text-align: right;
+}
+.board-box .board-box-reply .reply-update-btn button {
+  min-width: 50px;
+}
+.board-box .board-box-reply .reply-update-btn .btn + .btn {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=board.css.map */

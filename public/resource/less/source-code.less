@@ -1,0 +1,74 @@
+
+.code-content {
+  background: #FFFFFF;
+  font-size: 11px;
+
+  .currentPath {
+    background: #F74343;
+    color: #FFFFFF;
+    padding: 4px 0 4px 4px;
+    font-size: 13px;
+    word-break: break-all;
+	text-overflow: ellipsis;
+  }
+
+  .folding {
+    width: 6px;
+    border-right: solid 1px #eeeeee;
+    padding: 2px 0px 2px 0px;
+    background: #f8f8ff;
+    vertical-align: top;
+  }
+
+  .num {
+    text-align: right;
+    width: 24px;
+  }
+
+  .code {
+    span {
+      &.reserved {
+        color: #0e84b5;
+      }
+      &.functions {
+        color: #F2552C;
+      }
+    }
+    td {
+      &.sink,  & .sink{
+        padding: 4px 0px 2px 12px;
+        background: #B93A32;
+        color: #FFFFFF;
+        .reserved {
+          color: #a8e5ff;
+        }
+        .eventMsg {
+          font-size: 12px;
+        }
+      }
+      & .branch {
+        padding: 4px 0px 2px 12px;
+        background: #F6D155;
+      }
+      & .source {
+        padding: 4px 0px 2px 12px;
+        background: #4C6A92;
+        color: #FFFFFF;
+      }
+      &.line table {
+        border: 1px solid #888;
+        margin: 4px;
+        tr {
+          th {
+            background: #888;
+            color: #FFFFFF;
+          }
+
+          th, td {
+            padding: 0 4px 0 4px;
+          }
+        }
+      }
+    }
+  }
+}

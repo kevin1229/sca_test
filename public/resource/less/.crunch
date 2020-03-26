@@ -1,0 +1,828 @@
+{
+	"files": {
+		"skin-light.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/skin-light.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"skin-light.less"
+			]
+		},
+		"sweet-alert-custom.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/sweet-alert-custom.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"sweet-alert-custom.less",
+				"skin-light.less"
+			]
+		},
+		"base-layout.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/base-layout.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"base-layout.less",
+				"skin-light.less"
+			]
+		},
+		"datatable-custom.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/datatable-custom.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"skin-light.less",
+				"datatable-custom.less"
+			]
+		},
+		"modal.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/modal.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"modal.less"
+			]
+		},
+		"bootstrap-tab-custom.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/bootstrap-tab-custom.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"bootstrap-tab-custom.less"
+			]
+		},
+		"admin-user-group.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-user-group.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"admin-user-group.less"
+			]
+		},
+		"admin-remote-engine.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-remote-engine.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"admin-remote-engine.less"
+			]
+		},
+		"left-fixed-menu.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/left-fixed-menu.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"skin-light.less",
+				"left-fixed-menu.less"
+			]
+		},
+		"admin-checker-group-design.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-checker-group-design.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"skin-light.less",
+				"admin-checker-group-design.less"
+			]
+		},
+		"bootstrap-custom.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/bootstrap-custom.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": []
+		},
+		"dashboard.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/dashboard.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"dashboard.less",
+				"skin-light.less"
+			]
+		},
+		"account.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/account.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"account.less"
+			]
+		},
+		"project.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/project.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"project.less"
+			]
+		},
+		"modal-web-analysis.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/modal-web-analysis.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"modal-web-analysis.less"
+			]
+		},
+		"header-dropdown.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/header-dropdown.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"header-dropdown.less"
+			]
+		},
+		"scan.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/scan.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"scan.less"
+			]
+		},
+		"file.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/file.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"file.less"
+			]
+		},
+		"header.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/header.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"base-layout.less",
+				"header.less"
+			]
+		},
+		"right-side-menu.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/right-side-menu.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"right-side-menu.less"
+			]
+		},
+		"vcs.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/vcs.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"vcs.less"
+			]
+		},
+		"modal-export-result.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/modal-export-result.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"skin-light.less"
+			]
+		},
+		"admin-general.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-general.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"admin-general.less"
+			]
+		},
+		"admin-report-template-design.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-report-template-design.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"admin-report-template-design.less"
+			]
+		},
+		"project-setting.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/project-setting.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"project-setting.less"
+			]
+		},
+		"admin-engine.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-engine.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"admin-engine.less"
+			]
+		},
+		"scans-files.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/scans-files.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"scans-files.less"
+			]
+		},
+		"scans-info.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/scans-info.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"skin-light.less",
+				"scans-info.less"
+			]
+		},
+		"projects.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/projects.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"projects.less"
+			]
+		},
+		"admin-vcs.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-vcs.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"admin-vcs.less"
+			]
+		},
+		"issue.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/issue.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"skin-light.less",
+				"issue.less"
+			]
+		},
+		"login.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/login.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"login.less"
+			]
+		},
+		"checker.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/checker.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"checker.less"
+			]
+		},
+		"board.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/board.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"board.less"
+			]
+		},
+		"admin-webhook.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-webhook.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"admin-webhook.less"
+			]
+		},
+		"statistics.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/statistics.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"statistics.less"
+			]
+		},
+		"source-code.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/source-code.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"source-code.less"
+			]
+		},
+		"admin-common.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-common.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"admin-common.less"
+			]
+		},
+		"left-side-menu.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/left-side-menu.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"left-side-menu.less"
+			]
+		},
+		"main-sidebar-left.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/main-sidebar-left.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"main-sidebar-left.less"
+			]
+		},
+		"scans-metric.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/scans-metric.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"scans-metric.less"
+			]
+		},
+		"skin-sast.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/skin-sast.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"skin-sast.less"
+			]
+		},
+		"admin-agent-engine.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/admin-agent-engine.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"admin-agent-engine.less"
+			]
+		}
+	}
+}

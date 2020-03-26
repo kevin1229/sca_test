@@ -1,0 +1,164 @@
+
+.board {
+
+	.box {
+		margin: 0px;
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	.box-body {
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	.button-group {
+		button {
+			min-width: 70px;
+		}
+	}
+	
+	.label-board {
+		color: #ffffff;
+		font-weight: bold;
+		padding: 2px 2px;
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+	div.label-board {
+		min-width: 55px;
+	}
+	
+	.label-board-notice-status-notice {
+		background-color: #3c73ac;
+	}
+	.label-board-notice-status-faq {
+		background-color: #ea7c0b;
+	}
+	.label-board-notice-status-etc {
+		background-color: #686868;
+	}
+	
+	.label-board-notice-popup {
+	    background-color: #669933;
+	}
+
+	.label-board-qna-status-request {
+		background-color: #cb3435;
+		cursor: pointer;
+		&:HOVER {
+			text-decoration: underline;
+		}
+	}
+	.label-board-qna-status-complete {
+		background-color: #0b9487;
+		cursor: pointer;
+		&:HOVER {
+			text-decoration: underline;
+		}
+	}
+	.label-board-qna-status-etc {
+		background-color: #686868;
+	}
+	
+	.label-board-qna-private {
+		background-color: #4682B4;
+	}
+	
+	i.material-icons.subject-icon {
+		color: #ff3c00;
+	}	
+	span.deleted {
+		color: #aaaaaa;
+	}
+	
+	.board-divide {
+		li {
+			display: inline-block;
+			&:not(:first-child):before {
+    			content: '|\00a0';
+			}
+			.btn {
+			    padding: 0;	
+			    height: 20px;
+			}
+		}
+	}
+	
+	.board-file {
+		min-height: 30px;
+		.file-preview-frame {
+			&.krajee-default {
+				&.kv-preview-thumb {
+					height: 90px;
+				}
+			}
+		}
+	
+		.krajee-default {
+			&.file-preview-frame {
+				padding: 6px 6px 2px 6px;
+			}
+			.file-actions {
+				margin-top: 0px;
+			}
+    	}
+
+		.file-upload-indicator {
+			display: none;
+		}
+		
+		.file-input {
+			&.file-input-ajax-new {
+				&.disabled {
+					opacity: 0.4;
+					text-decoration: line-through;
+				}
+			}
+		}
+    }
+	
+	.note-editor {
+		margin-top: 10px;
+	}
+}
+
+.board-box {
+	border: 2px solid #e5e5e5;
+	padding: 10px 10px;
+	.board-box-top {
+		margin: 10px;
+		&.board-box-top-underline {
+			border-bottom: 1px dashed #e5e5e5;
+		}
+	}
+	.board-box-attach {
+		margin-right: 10px;
+		text-align: right;
+	}
+	.board-box-content {
+		padding: 5px 20px 10px 20px;
+		word-break: break-all;
+	}
+	.board-box-reply {
+		margin: 10px 1px 1px 1px;
+		padding: 5px 5px;
+		.reply-count {
+			color: red;
+		}
+		.reply {
+			border-bottom: 1px dotted #cccccc;
+			padding: 10px 10px;
+		}
+		.reply-input {
+			margin: 10px 10px;
+		}
+		.reply-update-btn {
+			text-align: right;
+			button {
+				min-width: 50px;
+			}
+			.btn+.btn {
+				margin-left: 5px;
+			}
+		}
+	}
+}

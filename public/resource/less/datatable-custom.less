@@ -1,0 +1,508 @@
+@import (reference) "skin-light.less";
+
+@common: #F74343;
+@commonHover: #BFBEC6;
+@windowSizeMd: 1368px;
+
+.dataTables_wrapper {
+  .fixed {
+    table-layout: fixed;
+  }
+  .dt-buttons.btn-group {
+    float: right;
+    margin-bottom: 10px;
+    button {
+      margin-left: 4px;
+    }
+    .buttons-collection {
+      border-radius: 3px;
+      margin-left: 5px;
+      line-height: 1.8;
+      padding: 0px 11px 0px 14px;
+      font-size: 16px;
+    }
+  }
+  table.dataTable thead tr.selected td.select-checkbox:after, table.dataTable thead tr.selected th.select-checkbox:after {
+    content:'';
+  }
+  .dataTables_filter {
+    margin-bottom: 10px;
+  }
+  .dataTables_processing {
+    border: none;
+    z-index: 10;
+    background: transparent;
+    top: 20%;
+    .progress {
+      width: 48px;
+      height: 48px;
+      margin: auto;
+      border-radius: 5px;
+      background: rgba(0, 0, 0, 0.1);
+      i.fa {
+        margin-top: 9px;
+        font-size: 30px;
+        margin-left: 3px;
+        color: #666666;
+      }
+    }
+  }
+  .dataTables_paginate {
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 6px;
+    .paginate_input {
+      width: 48px;
+      text-align: center;
+      line-height: 1;
+      border: 1px solid #e9e9e9;
+      vertical-align: middle;
+    }
+    .paginate_button {
+      &:hover, & {
+        border: 1px solid transparent;
+        color: #666666 !important;
+        background: none;
+        padding: 4px;
+        .material-icons {
+    	  vertical-align: middle;
+    	}
+      }
+    }
+  }
+  .dataTables_length {
+    margin-top: 8px;
+    display: inline-block;
+    float: left;
+  }
+  .dataTables_info {
+    padding: 12px 12px 12px 12px;
+    font-family: tahoma;
+    font-size: 13px;
+    display: inline-block;
+    float: none;
+    color: #888888;
+    .shown {
+      color: #888888;
+      margin: 6px;
+    }
+  }
+  .bottom {
+    display: inline;
+  }
+  .custom-align {
+    .dataTables_length {
+      float: none;
+      padding-top: 0.755em;
+      display: inline-block;
+    }
+    .dataTables_info {
+      float: none;
+      display: inline-block;
+      margin-left: 20px;
+    }
+  }
+  select.input-sm {
+    height: 26px;
+    padding: 4px;
+  }
+  label {
+    margin: 0;
+  }
+}
+
+table.dataTable {
+	
+	&.table-row-cursor-auto {
+		&.no-footer {
+			tbody {
+				tr[role="row"] {
+					cursor: auto;
+				}
+			}
+		}
+	}
+	
+  border-bottom: none;
+  thead:first-child {
+    tr:first-child > th {
+      padding: 3px 10px;
+      border-bottom: 2px solid #e9e9e9;
+      border-top: none;
+    }
+  }
+  tbody > tr {
+    td {
+      border-top: none;
+      vertical-align: middle;
+      border-bottom: 1px solid #e9e9e9;
+      &.dt-head-center {
+        text-align: center;
+      }
+      &.dt-head-right {
+        text-align: right;
+      }
+    }
+    &:last-child {
+      td {
+        border-bottom: 2px solid #e9e9e9;
+      }
+    }
+  }
+
+  &.dtr-inline.collapsed > tbody > tr > td.extend-button:first-child,
+  &.dtr-inline.collapsed > tbody > tr > th.extend-button:first-child {
+    width: 1px;
+  }
+
+  tr .table-inner-fixed-width-md > div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+  thead th {
+    position: relative;
+    background-image: none !important;
+    &.sorting:after, &.sorting_asc:after, &.sorting_desc:after {
+      font-size: 10px;
+      font-family: FontAwesome;
+      padding-left: 8px;
+    }
+
+    &.sorting_asc:after {
+      content: "\f160";
+    }
+    &.sorting_desc:after {
+      content: "\f161";
+    }
+  }
+
+  .row-selected {
+    color: white;
+  }
+  
+  .separate-column {
+	border-left: 1px solid #d8d8d8;
+  }
+
+  .dropdown-toggle {
+    &,
+    &:hover,
+    &:focus {
+      background: inherit;
+      color: white;
+      padding: 3px;
+      border: none;
+    }
+    .caret {
+      border-top: 7px dashed;
+      border-right: 5px solid transparent;
+      border-left: 5px solid transparent;
+    }
+  }
+  .checkbox-control.select-checkbox .dropdown-toggle .caret {
+    color: gainsboro;
+  }
+  thead th.extend-button,
+  tbody td.extend-button {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &.slim {
+    tbody td{
+      padding: 3px 10px;
+    }
+  }
+
+  tr th.checkbox-control,
+  tr td.checkbox-control {
+    width: 10px;
+    padding-right: 14px;
+    border-right: none;
+    padding-left: 9px;
+  }
+  td.select-checkbox:before {
+    border: 1px solid #555555;
+    cursor: pointer;
+  }
+  th.select-checkbox .checkbox-image:before{
+    border: 1px solid #555555;
+    cursor: pointer;
+  }
+
+  td.table-tooltip-cell-md span {
+    width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &.no-footer {
+    font-size: 11.5px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+
+    thead {
+      input[type="checkbox"] {
+        margin: 0;
+        cursor: pointer;
+      }
+    }
+
+    tr.table-select-all {
+      height: 30px;
+      background: #FFFFFF;
+      border-bottom: 1px solid #e9e9e9;
+      .table-inner-link {
+        text-decoration: underline;
+        cursor: pointer;
+        line-height: 2;
+      }
+      .select-all:hover {
+        border-bottom: 1px solid #72afd2;
+      }
+    }
+
+    tbody {
+      tr[role="row"] {
+        cursor: pointer;
+        &:hover, &.even:hover {
+          background-color: @commonHover;
+          .material-icons {
+            visibility: visible;
+          }
+        }
+        background-color: transparent;
+        &.even {
+          background-color: #fcfcfc;
+        }
+        &.even.row-selected, &.row-selected {
+          background-color: #e8c9c9;
+        }
+        &:hover {
+          td.extend-button {
+            i.active-hover {
+              display: inline;
+              color: #666666;
+            }
+          }
+        }
+        td {
+          &.extend-button {
+            i.fa {
+              color: transparent;
+            }
+          }
+          i.fa {
+            font-size: 20px;
+            color: #666666;
+            &.fa-show {
+              display: inline;
+            }
+            &.fa-caret-right {
+              font-size: 16px;
+            }
+          }
+          div.ellipsis {
+		    word-break: break-all;
+		    word-wrap: break-word;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		  }
+          .tooltip-inner {
+            word-break: break-all;
+          }
+        }
+      }
+      @media (max-width: @windowSizeMd) {
+        td {
+          padding: 6px;
+        }
+      }
+      @media (min-width: @windowSizeMd) {
+        td {
+          padding: 6px 10px;
+        }
+      }
+    }
+
+    .total-count {
+      width: 65px;
+      display: inline-block;
+    }
+    
+    .table-inner-link {
+      text-align: center;
+      border: 1px solid transparent;
+      border-radius: 2px;
+      padding: 2px 6px;
+      background: @common;
+      color: white;
+      transition: all 0.3s ease-in-out;
+      &.risk1 {
+        background-color: @RiskLevel1BackgroundColor;
+      }
+      &.risk2 {
+        background-color: @RiskLevel2BackgroundColor;
+      }
+      &.risk3 {
+        background-color: @RiskLevel3BackgroundColor;
+      }
+      &.risk4 {
+        background-color: @RiskLevel4BackgroundColor;
+      }
+      &.risk5 {
+        background-color: @RiskLevel5BackgroundColor;
+      }
+      &.file {
+      	background-color: #979797;
+      }
+      &.new-issue {
+      	background-color: #0077CC;
+      }
+    }
+
+    .material-icons {
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      margin-right: 4px;
+      color: #888888;
+      visibility: hidden;
+      &:hover {
+        color: @common;
+      }
+    }
+  }
+
+  tr.checkbox-selected td.select-checkbox {
+    &:after {
+      margin-top: -13px;
+      margin-left: -6px;
+      color: @common;
+      font-family: FontAwesome;
+      content: '\f14a';
+      text-align: center;
+      font-size: 15px;
+      border-radius: 2px;
+    }
+    &:before {
+      margin-top: -6px;
+      margin-left: -6px;
+    }
+  }
+
+  // Data Table Checkbox 위치 조절
+  tr.selected th.select-checkbox .checkbox-image:after {
+    margin-top: -19px;
+    margin-left: 1px;
+    color: @common;
+  }
+
+  th.select-checkbox .checkbox-image:before {
+    margin-top: -12px;
+    margin-left: 1px;
+  }
+
+  tr.selected td.select-checkbox {
+    &:after {
+      margin-top: -8px;
+      margin-left: -6px;
+      color: @common;
+      text-shadow: none;
+    }
+    &:before {
+      margin-top: -6px;
+      margin-left: -6px;
+    }
+  }
+}
+
+// 컬럼 조정 드롭다운 박스 커스텀
+.dt-button-collection {
+	&.dropdown-menu {
+	  > .buttons-columnVisibility {
+	    &.active > a {
+	      color: #afafaf;
+	      text-decoration: none;
+	      background-color: #e4e4e4;
+	      outline: 0;
+	    }
+	    > a {
+	      &:hover, &:focus {
+	        background-color: #9e9e9e;
+	        color: white;
+	      }
+	    }
+	  }
+	  > .buttons-colvisRestore {
+	    > a {
+	      &:hover, &:focus {
+	        background-color: #9e9e9e;
+	        color: white;
+	      }
+	      color: @common;
+	    }
+	  }
+	}
+}
+
+.table-cell table {
+  font-size: 11px;
+}
+
+.bottom {
+  table.dataTable {
+    tr.selected th.select-checkbox .checkbox-image:after {
+      margin-top: -18px;
+      margin-left: 1px;
+    }
+
+    th.select-checkbox .checkbox-image:before {
+      margin-left: 1px;
+    }
+
+    tr.selected td.select-checkbox {
+      &:after {
+        margin-top: -12px;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+table.table-info {
+  font-size: 12px;
+  border: 1px solid #e9e9e9;
+  transition: all 0.3s ease;
+  clear: both;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  line-height: 26px;
+  thead, tfoot {
+    color: #252525;
+    font-weight: 600;
+    background: #e9e9e9;
+    tr{
+      th, td {
+        padding: 3px 10px;
+      }
+    }
+  }
+
+  tbody {
+    color: #252525;
+    tr{
+      td {
+        padding: 3px 10px;
+      }
+      &:not(:last-child){
+        td {
+          border-bottom: 1px solid #d4d4d4;
+        }
+      }
+    }
+  }
+}
+

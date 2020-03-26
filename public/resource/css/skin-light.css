@@ -1,0 +1,680 @@
+.skin-light .wrapper {
+  background: #FFFFFF;
+}
+.skin-light .main-sidebar,
+.skin-light .left-side {
+  background-color: #262626;
+}
+.skin-light .login_head {
+  background: #2d3e4e;
+}
+.skin-light .login-box-body {
+  color: #666666;
+  background: #ffffff;
+}
+.skin-light .navbar .navbar-nav > .active > a,
+.skin-light .navbar .navbar-nav > .active > a:hover,
+.skin-light .navbar .navbar-nav > .active > a:focus {
+  color: #F74343;
+  background: transparent;
+}
+.skin-light .navbar .navbar-nav > .open > a,
+.skin-light .navbar .navbar-nav > .open > a:hover,
+.skin-light .navbar .navbar-nav > .open > a:focus {
+  border-bottom: 2px solid #F74343;
+  color: #F74343;
+  background-color: #080808;
+}
+.skin-light .navbar .navbar-nav > li > a {
+  color: #999999;
+  font-weight: 600;
+}
+.skin-light .navbar .navbar-search i {
+  color: white;
+}
+.skin-light .navbar .navbar-search input {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: transparent;
+  border-radius: 4px;
+  color: white;
+}
+.skin-light .sidebar .sidebar-menu li.treeview > .treeview-menu {
+  background: #262626;
+  padding-left: 0;
+}
+.skin-light .sidebar .sidebar-menu li.treeview a {
+  color: #999999;
+  padding: 14px 5px 14px 15px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.skin-light .sidebar .sidebar-menu li.treeview.active > a,
+.skin-light .sidebar .sidebar-menu li.treeview:hover > a {
+  background: #313131;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding: 14px 5px 14px 15px;
+}
+.skin-light .sidebar .sidebar-menu li.treeview.active > a i,
+.skin-light .sidebar .sidebar-menu li.treeview:hover > a i {
+  color: #F74343;
+}
+.skin-light .sidebar .sidebar-menu li.treeview.active > a span,
+.skin-light .sidebar .sidebar-menu li.treeview:hover > a span {
+  color: #FFFFFF;
+}
+.skin-light .sidebar .sidebar-menu .dropdown-menu {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 8px 6px -3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 8px 6px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 6px -3px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e9e9e9;
+}
+.skin-light .sidebar .sidebar-menu .dropdown-menu > li > a {
+  color: #262626;
+}
+.skin-light .dropdown-menu {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+  border: 1px solid #e9e9e9;
+}
+.skin-light .navbar-header .dropdown-menu {
+  border-top: 2px solid #F74343;
+}
+.skin-light .notify-card-success {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.skin-light .notify-card-completed {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.skin-light .notify-card-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.skin-light .notify-card-danger {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+.skin-light .label-notify-count {
+  color: #ffffff !important;
+  background-color: #ff5b57 !important;
+}
+.skin-light .fa-star.favorite-no {
+  color: #CACACA;
+}
+.skin-light .fa-star.favorite-added {
+  color: #F39C12;
+}
+.skin-light .left-side-fixed-menu {
+  background-color: #262626;
+}
+.skin-light .left-side-fixed-menu .dropdown-menu .box-header {
+  background-color: #e4e4e4;
+}
+.skin-light .left-side-fixed-menu .nav-stacked > li > a {
+  color: #ffffff;
+  border-color: transparent;
+}
+.skin-light .left-side-fixed-menu .nav-stacked > li:hover {
+  border-color: transparent;
+}
+.skin-light .left-side-fixed-menu .nav-stacked > li.active > a,
+.skin-light .left-side-fixed-menu .nav-stacked > li.active > a:hover,
+.skin-light .left-side-fixed-menu .nav-stacked > li.active > a:focus {
+  color: #ffffff;
+}
+.skin-light .left-side-fixed-menu .download-center-main {
+  color: #252525;
+}
+.skin-light .left-side-fixed-menu .download-center-main .icon-group {
+  color: #8a8a8a;
+}
+.skin-light .left-side-fixed-menu .download-center-main .download-center-body .box-header {
+  background-color: #e4e4e4;
+}
+.skin-light .left-side-fixed-menu .download-center-main .download-center-body .download-center-card {
+  color: #5d5d5d;
+}
+.skin-light .left-side-fixed-menu .download-center-main .download-center-body .download-center-card .card-inner-center {
+  color: #3367d6;
+}
+.skin-light .left-side-fixed-menu .download-center-main .download-center-body .download-center-card .date-outer {
+  color: inherit;
+}
+.skin-light .left-side-fixed-menu .download-center-main .download-center-body .download-center-card .progress-bar-outer {
+  background-color: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0 1px 3px inset;
+}
+.skin-light .left-side-fixed-menu .download-center-main .download-center-body .download-center-card .progress-bar-outer .progress-bar-csv {
+  background-color: #F5B451;
+}
+.skin-light .left-side-fixed-menu .download-center-main .download-center-body .download-center-card .progress-bar-outer .progress-bar-word {
+  background-color: #399BDE;
+}
+.skin-light .left-side-fixed-menu .download-center-main .download-center-body .download-center-card .progress-bar-outer .progress-bar-pdf {
+  background-color: #E65D58;
+}
+.skin-light .left-side-fixed-menu .download-center-main .download-center-body .download-center-card .progress-bar-outer .progress-bar-excel {
+  background-color: #6CC567;
+}
+/*
+*
+* 공통
+*
+*/
+.skin-light .open > .dropdown-toggle.btn-primary {
+  color: #FFFFFF;
+}
+.skin-light .open > .dropdown-toggle.btn-primary,
+.skin-light .open > .dropdown-toggle.btn-primary:active:focus,
+.skin-light .open > .dropdown-toggle.btn-primary:hover,
+.skin-light .open > .dropdown-toggle.btn-primary:active {
+  background-color: #F74343;
+  border-color: #F74343;
+}
+.skin-light .box.box-solid > .box-header .btn:hover {
+  background-color: #F74343;
+  border-color: #F74343;
+}
+.skin-light .btn-primary {
+  color: #FFFFFF;
+  background-color: #F74343;
+  border-color: #F74343;
+  transition: all 0.4s ease;
+}
+.skin-light .btn-primary:active:focus,
+.skin-light .btn-primary:hover,
+.skin-light .btn-primary:active,
+.skin-light .btn-primary.active {
+  background-color: #F74343;
+  border-color: #F74343;
+}
+.skin-light .btn-primary i.fa {
+  color: #ffffff;
+}
+.skin-light .btn-call {
+  color: #FFFFFF;
+  background-color: #117fae;
+  border-color: #117fae;
+  transition: all 0.4s ease;
+}
+.skin-light .btn-call:active:focus,
+.skin-light .btn-call:hover,
+.skin-light .btn-call:active,
+.skin-light .btn-call.active {
+  background-color: #117fae;
+  border-color: #117fae;
+}
+.skin-light .btn-call i.fa {
+  color: #ffffff;
+}
+.skin-light .btn-radio {
+  border: 1px solid #e9e9e9;
+}
+.skin-light .btn-radio.active {
+  background: #F74343;
+  color: white;
+}
+.skin-light .btn-warning {
+  color: #FFFFFF;
+  background-color: #F74343;
+  border-color: #F74343;
+  transition: all 0.4s ease;
+}
+.skin-light .btn-warning:active:focus,
+.skin-light .btn-warning:hover,
+.skin-light .btn-warning:active,
+.skin-light .btn-warning.active {
+  background-color: #F74343;
+  border-color: #F74343;
+}
+.skin-light .btn-default {
+  background-color: #FFFFFF;
+  font-weight: 600;
+  color: #666666;
+  border-color: #AAAAAA;
+  transition: all 0.4s ease;
+}
+.skin-light .btn-default:active:focus,
+.skin-light .btn-default:hover,
+.skin-light .btn-default:active {
+  background-color: #FFFFFF;
+}
+.skin-light .btn-risk {
+  cursor: default;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 2px 6px;
+  color: white;
+}
+.skin-light .btn-risk.risk1 {
+  background-color: #d32f2f;
+}
+.skin-light .btn-risk.risk2 {
+  background-color: #f57c00;
+}
+.skin-light .btn-risk.risk3 {
+  background-color: #fbc02d;
+}
+.skin-light .btn-risk.risk4 {
+  background-color: #9e9d24;
+}
+.skin-light .btn-risk.risk5 {
+  background-color: #616161;
+}
+.skin-light .btn-transparent {
+  background-color: transparent;
+  color: #888888;
+  border-color: transparent;
+  transition: all 0.4s ease;
+}
+.skin-light .btn-transparent:active:focus,
+.skin-light .btn-transparent:hover,
+.skin-light .btn-transparent:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.skin-light .btn-group .btn-primary {
+  background-color: #FFFFFF;
+  color: #313131;
+  border-color: #e9e9e9;
+}
+.skin-light .btn-group .btn-primary:active:focus,
+.skin-light .btn-group .btn-primary:hover,
+.skin-light .btn-group .btn-primary:active {
+  background-color: #FFFFFF;
+}
+.skin-light .btn-group .btn-primary.active {
+  color: #FFFFFF;
+  background-color: #F74343;
+  border-color: #F74343;
+}
+/*
+*
+* TAB 컨트롤
+*
+*/
+.skin-light .nav-tabs-custom,
+.skin-light .nav-tabs-spw {
+  /*background-color: #FDFEFF;*/
+}
+.skin-light .nav-tabs-custom > .nav-tabs,
+.skin-light .nav-tabs-spw > .nav-tabs {
+  border-bottom-color: #e9e9e9;
+}
+.skin-light .nav-tabs-custom > .nav-tabs > li,
+.skin-light .nav-tabs-spw > .nav-tabs > li {
+  min-width: 122px;
+  height: 30px;
+}
+.skin-light .nav-tabs-custom > .nav-tabs > li.hover > a,
+.skin-light .nav-tabs-spw > .nav-tabs > li.hover > a {
+  color: #F74343;
+}
+.skin-light .nav-tabs-custom > .nav-tabs > li.active,
+.skin-light .nav-tabs-spw > .nav-tabs > li.active,
+.skin-light .nav-tabs-custom > .nav-tabs > li,
+.skin-light .nav-tabs-spw > .nav-tabs > li {
+  border-top: 1px solid #e9e9e9;
+  border-left: none;
+  border-right: 1px solid #e9e9e9;
+}
+.skin-light .nav-tabs-custom > .nav-tabs > li.active > a,
+.skin-light .nav-tabs-spw > .nav-tabs > li.active > a,
+.skin-light .nav-tabs-custom > .nav-tabs > li > a,
+.skin-light .nav-tabs-spw > .nav-tabs > li > a {
+  color: #666666;
+  background-color: #FDFEFF;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+.skin-light .nav-tabs-custom > .nav-tabs > li:first-child,
+.skin-light .nav-tabs-spw > .nav-tabs > li:first-child {
+  border-left: 1px solid #e9e9e9;
+}
+.skin-light .nav-tabs-custom > .nav-tabs > li.active,
+.skin-light .nav-tabs-spw > .nav-tabs > li.active {
+  border-bottom: 3px solid #F74343;
+}
+.skin-light .nav-tabs-custom > .nav-tabs > li > a,
+.skin-light .nav-tabs-spw > .nav-tabs > li > a {
+  color: #8A8B8D;
+}
+/*
+*
+* fancy tree style 
+*
+*/
+.skin-light .tree-area .ui-fancytree.fancytree-container {
+  background-color: #ffffff;
+  color: #616161;
+}
+.skin-light .tree-area .ui-fancytree.fancytree-container li span.fancytree-title {
+  color: #7E7E7E;
+}
+.skin-light .tree-area .fancytree-plain.fancytree-container.fancytree-treefocus span.fancytree-node.fancytree-active span.fancytree-title,
+.skin-light .tree-area .fancytree-plain.fancytree-container.fancytree-treefocus span.fancytree-node.fancytree-active:hover span.fancytree-title {
+  background-color: #dddddd;
+  border-color: #dddddd;
+  color: #7E7E7E;
+}
+.skin-light .tree-area .fancytree-plain.fancytree-container span.fancytree-node.fancytree-active span.fancytree-title,
+.skin-light .tree-area .fancytree-plain.fancytree-container span.fancytree-node.fancytree-active:hover span.fancytree-title {
+  background-color: #dddddd;
+  color: #7E7E7E;
+}
+/**
+ *
+ * 데이터 테이블 셋팅
+ *
+ */
+.skin-light table.dataTable tbody tr.row-selected {
+  color: #252525;
+  background: peachpuff;
+}
+/*
+ *
+ * common status alert
+ * 즐겨찾기 추가완료 등 상태 메세지 화면 가운데 뜨는거임.
+ */
+.skin-light .alert-success-org {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.skin-light .alert-warning-org {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.skin-light .alert-info-org {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.skin-light .alert-search-info {
+  background: lightgray;
+}
+.skin-light .alert-success {
+  background-color: #6DD0C2 !important;
+  border-color: transparent;
+}
+.skin-light .alert-warning-cutom {
+  color: #8a6d3b !important;
+  background-color: #fcf8e3 !important;
+  border-color: #faebcc;
+  padding: 6px 10px;
+}
+.skin-light .alert {
+  border: 1px solid transparent;
+  -webkit-box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.21);
+  box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.21);
+}
+/*
+ *
+ * 프로젝트 화면
+ *
+ */
+.skin-light .sidebar .sidebar-menu > li button.btn-block {
+  color: #ffffff;
+  background: #F74343;
+  border-color: #F74343;
+}
+.skin-light .right-side-400.project-detail {
+  color: #8A8B8D;
+  background: #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+}
+.skin-light .right-side-400.project-detail .title-span {
+  color: #464950;
+}
+.skin-light .treeview-menu > li.active > a,
+.skin-light .treeview-menu > li > a:hover {
+  color: #F74343;
+  background: #1e2027;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+ul li a {
+  color: #ffffff;
+}
+/*
+* 
+* 가운데 화면(content) 관련 스타일
+* 
+*/
+.content-wrapper {
+  background-color: #FFFFFF;
+}
+.skin-light .wrapper .input-group .input-group-addon {
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  background: #FFFFFF;
+}
+.skin-light .wrapper .form-control {
+  border: 1px solid #e9e9e9;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #F74343;
+  border-color: #F74343;
+  color: #fff;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #F74343;
+  color: white;
+}
+/**
+ * Table
+ */
+table thead {
+  color: #555555;
+  background: #FFFFFF;
+}
+table.dropdown-table-style {
+  color: #252525;
+}
+table.dropdown-table-style th {
+  background-color: #B2CFD8;
+}
+table.dropdown-table-style td {
+  background-color: #ffffff;
+}
+table.dropdown-table-style th,
+table.dropdown-table-style td {
+  border: solid #517994;
+}
+table.dropdown-table-style tr:hover td {
+  background-color: #DFEBF1;
+}
+table .selected .table-inner-link {
+  color: #F74343;
+  background: #FFFFFF;
+}
+table .row-selected .table-inner-link {
+  color: #FFFFFF;
+  background: #F74343;
+}
+/*
+*
+* box관련 공통 설정.
+*
+*/
+.box {
+  background: #FFFFFF;
+}
+.box.box-primary {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dddddd;
+}
+.box .box-header i.fa {
+  color: #F74343;
+  padding-right: 5px;
+}
+.box .box-header button i.fa {
+  color: #FFFFFF;
+}
+.box .count {
+  color: #F74343;
+}
+.box-header-text {
+  color: #252525;
+}
+/*
+*
+* 전체 화면 공통
+*
+*/
+.form-group.required .control-label:after {
+  color: red;
+}
+/*
+*
+* 프로젝트 화면
+* 위에 있음. 위에 추가 바람.
+*/
+.right-side-400.project-detail .title-span {
+  color: #464950;
+}
+.right-side-400.project-detail #selectedProjectListRoot .selectedProjectCard {
+  color: #3a87ad;
+  background-color: #eaeaea;
+}
+/*
+*
+* 검색 기준 텍스트 영역 설정.
+*
+*/
+.search-condition .search-text {
+  color: #068591;
+}
+/**
+ * Chart 색상
+ */
+/**
+ * Modal 색상
+ */
+.modal .file-input .upload-icon {
+  color: #F74343;
+}
+.modal .project-icon {
+  color: #F74343;
+}
+.checkbox input[type="checkbox"]:checked + label::before,
+.checkbox input[type="radio"]:checked + label::before,
+.checkbox input[type="checkbox"]:checked + label::before,
+.checkbox input[type="radio"]:checked + label::before,
+.checkbox input[type="checkbox"]:indeterminate + label::before,
+.checkbox input[type="radio"]:indeterminate + label::before,
+.checkbox input[type="checkbox"]:indeterminate + label::before,
+.checkbox input[type="radio"]:indeterminate + label::before {
+  background-color: #F74343;
+  border-color: #F74343;
+}
+.checkbox input[type="checkbox"] + label::before,
+.checkbox input[type="radio"] + label::before,
+.checkbox input[type="checkbox"] + label::before,
+.checkbox input[type="radio"] + label::before {
+  border: 1px solid #555555;
+}
+@media (max-width: 991px) {
+  .content-header > .breadcrumb {
+    background: none;
+  }
+}
+span.blue {
+  color: #F74343;
+}
+/**
+ * modal-dialog
+ */
+.modal-dialog .nav-tabs .button-style-radio .radio-label,
+.modal-dialog .tab-content .button-style-radio .radio-label {
+  background-color: #FFFFFF;
+}
+.modal-dialog .nav-tabs .button-style-radio input[type=radio],
+.modal-dialog .tab-content .button-style-radio input[type=radio] {
+  display: none;
+}
+.modal-dialog .nav-tabs .button-style-radio input[type=radio]:checked + div,
+.modal-dialog .tab-content .button-style-radio input[type=radio]:checked + div {
+  color: #FFFFFF;
+  background-color: #F74343;
+  border-color: #F74343;
+}
+.modal-dialog .nav-tabs li a,
+.modal-dialog .tab-content li a {
+  background-color: #FFFFFF;
+}
+.modal-dialog .nav-tabs li.active a,
+.modal-dialog .tab-content li.active a {
+  color: #FFFFFF;
+  background-color: #F74343;
+  border-color: #F74343;
+}
+.info .info-event {
+  background: #F74343;
+  border-color: #F74343;
+  color: white;
+}
+/**
+ * daterangepicker
+ */
+.daterangepicker .calendar th,
+.daterangepicker .calendar td {
+  background: #ffffff;
+}
+.daterangepicker .calendar th.active,
+.daterangepicker .calendar td.active,
+.daterangepicker .calendar th.active:hover,
+.daterangepicker .calendar td.active:hover {
+  background: #F74343;
+}
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+  background-color: #F74343;
+  border-color: transparent;
+}
+.daterangepicker .ranges .range_inputs button.btn-success,
+.daterangepicker .ranges .range_inputs button.btn-success:hover {
+  background: #F74343;
+  border-color: #F74343;
+}
+.daterangepicker .ranges li {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+.daterangepicker .ranges li.active {
+  background: #F74343;
+  border-color: #F74343;
+  color: #FFFFFF;
+}
+.daterangepicker .ranges li.active:hover {
+  background: #F74343;
+  border-color: #F74343;
+  color: #FFFFFF;
+}
+.daterangepicker .ranges li:hover {
+  background: #F74343;
+  border-color: #F74343;
+}
+
+/*# sourceMappingURL=skin-light.css.map */
