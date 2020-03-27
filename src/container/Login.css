@@ -40,7 +40,7 @@
   margin-top: 12px;
 }
 .login-wrapperBox .login-box-body {
-  background-image: url(/resources/image/login_background.png);
+  background-image: url(../resource/image/login_background.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 296px 120px;
